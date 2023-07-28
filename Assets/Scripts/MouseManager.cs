@@ -10,7 +10,7 @@ public class MouseManager : MonoBehaviour
 
     [Header("Physics")]
     public Vector3 launchVector;
-    public float launchForce;
+    private float launchForce = 55f;
 
     [Header("Slime")]
     public Transform ballTransform;
@@ -42,7 +42,7 @@ public class MouseManager : MonoBehaviour
             launchVector = new Vector3(
                 mouseDifference.x * 1f,
                 mouseDifference.y * 1.2f,
-                mouseDifference.y * 1.5f
+                mouseDifference.z * 1.5f
             );
             launchVector.Normalize();
             ballTransform.position = ballOrigin - launchVector / 400;
