@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/BallThrow.cs" />
      <Compile Include="Assets/Scripts/RemoveConstraints.cs" />
+     <Compile Include="Assets/Scripts/CheckForMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Users/ry/Documents/Ryan Unity/2021.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
