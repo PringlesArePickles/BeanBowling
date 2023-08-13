@@ -720,8 +720,14 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>/Users/ry/Documents/GitHub/BeanBowling/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/Users/ry/Documents/GitHub/BeanBowling/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>/Users/ry/Documents/GitHub/BeanBowling/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/Users/ry/Documents/GitHub/BeanBowling/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>/Users/ry/Documents/GitHub/BeanBowling/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -737,12 +743,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/Users/ry/Documents/GitHub/BeanBowling/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>/Users/ry/Documents/GitHub/BeanBowling/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>/Users/ry/Documents/GitHub/BeanBowling/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
