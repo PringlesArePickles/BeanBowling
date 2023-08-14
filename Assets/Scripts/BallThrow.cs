@@ -42,14 +42,14 @@ public class BallThrow : MonoBehaviour
             ThrowBall(); //call ThrowBall() function
         }
 
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) //if "a" or left arrow key was pressed
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) && canThrow == true) //if "a" or left arrow key was pressed
         {
             gameObject.transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
             cam.transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
             //change position a tiny bit in the negative direction
         }
 
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) //if "d" or right arrow key was pressed
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) && canThrow == true) //if "d" or right arrow key was pressed
         {
             gameObject.transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
             cam.transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
