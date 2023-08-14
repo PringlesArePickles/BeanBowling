@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BallThrow : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class BallThrow : MonoBehaviour
     [Header("Booleans")]
     private bool canThrow;
 
+    [Header("Text")]
+    public Text powerNumberText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +35,8 @@ public class BallThrow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        powerNumberText.text = throwPower.ToString(); //powerText shows the throw power float as a string
+
         if (Input.GetKeyUp(KeyCode.Space) && canThrow == true) //if space is pressed
         {
             ThrowBall(); //call ThrowBall() function
