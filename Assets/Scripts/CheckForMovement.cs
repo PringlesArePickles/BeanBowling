@@ -5,58 +5,33 @@ using UnityEngine;
 public class CheckForMovement : MonoBehaviour
 {
     [Header("Original Pin Positions")]
-    private Vector3 pin1Pos;
-    private Vector3 pin2Pos;
-    private Vector3 pin3Pos;
-    private Vector3 pin4Pos;
-    private Vector3 pin5Pos;
-    private Vector3 pin6Pos;
-    private Vector3 pin7Pos;
-    private Vector3 pin8Pos;
-    private Vector3 pin9Pos;
-    private Vector3 pin10Pos;
-    
-    [Header("Array of Pins")]
-    public GameObject[] pins = new GameObject[10];
+    public Transform pin1Pos;
+    public Transform pin2Pos;
+    public Transform pin3Pos;
+    public Transform pin4Pos;
+    public Transform pin5Pos;
+    public Transform pin6Pos;
+    public Transform pin7Pos;
+    public Transform pin8Pos;
+    public Transform pin9Pos;
+    public Transform pin10Pos;
     
     [Header("Pin GameObjects")]
-    private GameObject pin1;
-    private GameObject pin2;
-    private GameObject pin3;
-    private GameObject pin4;
-    private GameObject pin5;
-    private GameObject pin6;
-    private GameObject pin7;
-    private GameObject pin8;
-    private GameObject pin9;
-    private GameObject pin10;
+    public GameObject pin1;
+    public GameObject pin2;
+    public GameObject pin3;
+    public GameObject pin4;
+    public GameObject pin5;
+    public GameObject pin6;
+    public GameObject pin7;
+    public GameObject pin8;
+    public GameObject pin9;
+    public GameObject pin10;
 
     // Start is called before the first frame update
     void Start()
     {
-        //assign gameObjects to a piece in the pins array
-        pin1 = pins[0];
-        pin2 = pins[1];
-        pin3 = pins[2];
-        pin4 = pins[3];
-        pin5 = pins[4];
-        pin6 = pins[5];
-        pin7 = pins[6];
-        pin8 = pins[7];
-        pin9 = pins[8];
-        pin10 = pins[9];
-    
-        //set pin origins to initial pin position
-        pin1Pos = pin1.transform.position;
-        pin2Pos = pin2.transform.position;
-        pin3Pos = pin3.transform.position;
-        pin4Pos = pin4.transform.position;
-        pin5Pos = pin5.transform.position;
-        pin6Pos = pin6.transform.position;
-        pin7Pos = pin7.transform.position;
-        pin8Pos = pin8.transform.position;
-        pin9Pos = pin9.transform.position;
-        pin10Pos = pin10.transform.position;
+
     }
 
     // Update is called once per frame
@@ -67,53 +42,55 @@ public class CheckForMovement : MonoBehaviour
 
     public void MovementCheck()
     {
+        float threshold = 0.05f;
+        
         //if pin is not in same position as origin then set the pin to be inactive
-        if (pin1.transform.position != pin1Pos)
+        if (Vector3.Distance(pin1.transform.position, pin1Pos.position) > threshold)
         {
             pin1.SetActive(false);
         }
 
-        if (pin2.transform.position != pin2Pos)
+        if (Vector3.Distance(pin2.transform.position, pin2Pos.position) > threshold)
         {
             pin2.SetActive(false);
         }
 
-        if (pin3.transform.position != pin3Pos)
+        if (Vector3.Distance(pin3.transform.position, pin3Pos.position) > threshold)
         {
             pin3.SetActive(false);
         }
 
-        if (pin4.transform.position != pin4Pos)
+        if (Vector3.Distance(pin4.transform.position, pin4Pos.position) > threshold)
         {
             pin4.SetActive(false);
         }
 
-        if (pin5.transform.position != pin5Pos)
+        if (Vector3.Distance(pin5.transform.position, pin5Pos.position) > threshold)
         {
             pin5.SetActive(false);
         }
 
-        if (pin6.transform.position != pin6Pos)
+        if (Vector3.Distance(pin6.transform.position, pin6Pos.position) > threshold)
         {
             pin6.SetActive(false);
         }
 
-        if (pin7.transform.position != pin7Pos)
+        if (Vector3.Distance(pin7.transform.position, pin7Pos.position) > threshold)
         {
             pin7.SetActive(false);
         }
 
-        if (pin8.transform.position != pin8Pos)
+        if (Vector3.Distance(pin8.transform.position, pin8Pos.position) > threshold)
         {
             pin8.SetActive(false);
         }
 
-        if (pin9.transform.position != pin9Pos)
+        if (Vector3.Distance(pin9.transform.position, pin9Pos.position) > threshold)
         {
             pin9.SetActive(false);
         }
 
-        if (pin10.transform.position != pin10Pos)
+        if (Vector3.Distance(pin10.transform.position, pin10Pos.position) > threshold)
         {
             pin10.SetActive(false);
         }

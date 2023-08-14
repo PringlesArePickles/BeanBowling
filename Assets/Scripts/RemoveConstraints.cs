@@ -33,4 +33,9 @@ public class RemoveConstraints : MonoBehaviour
     {
         m_rigidbody.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
     }
+
+    public void RemoveAllContstraints()
+    {
+        m_rigidbody.constraints = RigidbodyConstraints.None;
+    }
 }
