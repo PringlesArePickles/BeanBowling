@@ -12,7 +12,7 @@ public class BallThrow : MonoBehaviour
     public GameObject cam;
 
     [Header("Numbers")]
-    private float throwPower = 150f;
+    private float throwPower = 225f;
 
     [Header("Script references")]
     public CheckForMovement cfm;
