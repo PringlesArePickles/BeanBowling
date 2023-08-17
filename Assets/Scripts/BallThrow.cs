@@ -13,7 +13,6 @@ public class BallThrow : MonoBehaviour
 
     [Header("Numbers")]
     private float throwPower = 225f;
-    private float movementFreedom = 4f;
 
     [Header("Script references")]
     public CheckForMovement cfm;
@@ -21,7 +20,8 @@ public class BallThrow : MonoBehaviour
 
     [Header("Booleans")]
     private bool canThrow;
-    private bool canMove;
+    private bool canMoveLeft;
+    private bool canMoveRight;
 
     [Header("Text")]
     public Text powerNumberText;
@@ -32,6 +32,8 @@ public class BallThrow : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ; //add rigidbody constraints
         canThrow = true; //ball can be thrown
         rc = FindObjectOfType<RemoveConstraints>(); //find all objects with RemoveConstraintsScript
+        canMoveLeft = true; //ball can move left
+        canMoveRight = true; //ball can move right
     }
 
     // Update is called once per frame
@@ -44,30 +46,19 @@ public class BallThrow : MonoBehaviour
             ThrowBall(); //call ThrowBall() function
         }
 
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) && canThrow == true && canMove == true) //if "a" or left arrow key was pressed
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) && canMoveLeft == true && canThrow == true) //if "a" or left arrow key was pressed
         {
             gameObject.transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
             cam.transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
             //change position a tiny bit in the negative direction
         }
 
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) && canThrow == true && canMove == true) //if "d" or right arrow key was pressed
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) && canMoveRight == true && canThrow == true) //if "d" or right arrow key was pressed
         {
             gameObject.transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
             cam.transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
             //change positioin a tiny bit in positive direction
         }
-
-        //needs fixing
-        if (Vector3.Distance(gameObject.transform.position, ballOrigin.transform.position) >= movementFreedom)
-        {
-            canMove = false;
-        }
-        else
-        {
-            canMove = true;
-        }
-
     }
 
     public void ThrowBall()
@@ -88,5 +79,26 @@ public class BallThrow : MonoBehaviour
         cam.transform.position = camOrigin.position; //put camera in original position
         cam.transform.rotation = camOrigin.rotation; //put camera in original rotation
         canThrow = true; //ball can throw
+    }
+
+    public void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "leftBarrier")
+        {
+            canMoveLeft = false;
+        }
+        else
+        {
+            canMoveLeft = true;
+        }
+        
+        if (other.gameObject.tag == "rightBarrier")
+        {
+            canMoveRight = false;
+        }
+        else
+        {
+            canMoveRight = true;
+        }
     }
 }
