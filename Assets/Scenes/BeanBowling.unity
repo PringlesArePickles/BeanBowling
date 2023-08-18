@@ -688,6 +688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 116123812}
+  cfm: {fileID: 0}
 --- !u!64 &116123814
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1229,6 +1230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 586621528}
+  cfm: {fileID: 0}
 --- !u!64 &586621530
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2479,6 +2481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 851375570}
+  cfm: {fileID: 0}
 --- !u!64 &851375572
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2609,6 +2612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 913881693}
+  cfm: {fileID: 0}
 --- !u!64 &913881695
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3541,6 +3545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 1196355863}
+  cfm: {fileID: 0}
 --- !u!64 &1196355865
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3671,6 +3676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 1200175646}
+  cfm: {fileID: 0}
 --- !u!64 &1200175648
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3832,6 +3838,16 @@ MonoBehaviour:
   pin8: {fileID: 1200175642}
   pin9: {fileID: 1196355859}
   pin10: {fileID: 116123808}
+  pin1rb: {fileID: 8965164588968577241}
+  pin2rb: {fileID: 851375570}
+  pin3rb: {fileID: 586621528}
+  pin4rb: {fileID: 1362026590}
+  pin5rb: {fileID: 1610176601}
+  pin6rb: {fileID: 1871702754}
+  pin7rb: {fileID: 913881693}
+  pin8rb: {fileID: 1200175646}
+  pin9rb: {fileID: 1196355863}
+  pin10rb: {fileID: 116123812}
 --- !u!4 &1281960920
 Transform:
   m_ObjectHideFlags: 0
@@ -4060,6 +4076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 1362026590}
+  cfm: {fileID: 0}
 --- !u!64 &1362026592
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4891,6 +4908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 1610176601}
+  cfm: {fileID: 0}
 --- !u!64 &1610176603
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5463,6 +5481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 1871702754}
+  cfm: {fileID: 0}
 --- !u!64 &1871702756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6880,6 +6899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 8965164588968577241}
+  cfm: {fileID: 0}
 --- !u!64 &8965164588968577243
 MeshCollider:
   m_ObjectHideFlags: 0
