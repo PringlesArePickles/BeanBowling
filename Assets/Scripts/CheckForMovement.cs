@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CheckForMovement : MonoBehaviour
 {
+    [Header("Script references")]
+    public Scoring scoring;
+
     [Header("Original Pin Positions")]
     public Transform pin1Pos;
     public Transform pin2Pos;
@@ -29,7 +32,8 @@ public class CheckForMovement : MonoBehaviour
     public GameObject pin10;
 
     [Header("Numbers")]
-    private int pinsKnockedDown;
+    public int pinsKnockedDown;
+    public int ballsThrown;
 
     [Header("Rigidbodies")]
     public Rigidbody pin1rb;
@@ -43,25 +47,35 @@ public class CheckForMovement : MonoBehaviour
     public Rigidbody pin9rb;
     public Rigidbody pin10rb;
 
+    [Header("Strings")]
+    private string scoreForFrame;
+
     // Start is called before the first frame update
     void Start()
     {
         pinsKnockedDown = 0;
-        Debug.Log("pins knocked down " + pinsKnockedDown);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (pinsKnockedDown == 10)
+        if (pinsKnockedDown == 10 && ballsThrown == 1)
         {
+            Debug.Log("Strike!");
+            scoreForFrame = "Strike";
+            ResetPins();
+        }
+        else if (pinsKnockedDown == 10 && ballsThrown == 2)
+        {
+            Debug.Log("Spare!");
+            scoreForFrame = "Spare";
             ResetPins();
         }
     }
 
     public void MovementCheck()
     {
-        float threshold = 0.05f;
+        float threshold = 0.085f;
         
         //if pin is not in same position as origin then set the pin to be inactive
         if (Vector3.Distance(pin1.transform.position, pin1Pos.position) > threshold && pin1.activeInHierarchy == true)
@@ -124,7 +138,14 @@ public class CheckForMovement : MonoBehaviour
             pinsKnockedDown += 1;
         }
 
-        Debug.Log("pins knocked down" + pinsKnockedDown);
+        if (ballsThrown == 2 && pinsKnockedDown != 10)
+        {
+            Debug.Log("You only knocked " + pinsKnockedDown + " pins");
+            scoreForFrame = "pinsDown";
+            ResetPins();
+        }
+
+        scoring.Roll(pinsKnockedDown);
     }
 
     public void ResetPins()
@@ -179,6 +200,8 @@ public class CheckForMovement : MonoBehaviour
         pin10.transform.rotation = pin10Pos.rotation;
         pin10rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
+        
         pinsKnockedDown = 0;
+        ballsThrown = 0;
     }
 }

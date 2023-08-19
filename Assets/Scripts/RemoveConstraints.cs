@@ -6,7 +6,6 @@ public class RemoveConstraints : MonoBehaviour
 {
     public Rigidbody m_rigidbody;
 
-    public CheckForMovement cfm;
     // Start is called before the first frame update
     
     void Start()

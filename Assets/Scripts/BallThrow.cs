@@ -63,6 +63,7 @@ public class BallThrow : MonoBehaviour
 
     public void ThrowBall()
     {
+        cfm.ballsThrown += 1;
         rb.constraints = RigidbodyConstraints.None; //remove rigidbody constraints
         rb.AddForce(0f, 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
         Invoke("ResetBall", 9f); //call reset ball function after 7 seconds
