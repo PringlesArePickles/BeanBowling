@@ -140,8 +140,8 @@ public class CheckForMovement : MonoBehaviour
 
         if (ballsThrown == 2 && pinsKnockedDown != 10)
         {
-            Debug.Log("You only knocked " + pinsKnockedDown + " pins");
-            scoreForFrame = "pinsDown";
+            Debug.Log("Open frame. " + pinsKnockedDown + " pins knocked down.");
+            scoreForFrame = "openFrame";
             ResetPins();
         }
 
