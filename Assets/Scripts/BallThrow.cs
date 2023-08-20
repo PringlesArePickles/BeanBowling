@@ -12,7 +12,7 @@ public class BallThrow : MonoBehaviour
     public GameObject cam;
 
     [Header("Numbers")]
-    private float throwPower = 225f;
+    private float throwPower = 185f;
 
     [Header("Script references")]
     public CheckForMovement cfm;
@@ -66,7 +66,7 @@ public class BallThrow : MonoBehaviour
         cfm.ballsThrown += 1;
         rb.constraints = RigidbodyConstraints.None; //remove rigidbody constraints
         rb.AddForce(0f, 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
-        Invoke("ResetBall", 9f); //call reset ball function after 7 seconds
+        Invoke("ResetBall", 7.5f); //call reset ball function after 7 seconds
         canThrow = false; //ball can no longer be thrown;
     }
 

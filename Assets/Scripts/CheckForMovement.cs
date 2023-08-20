@@ -33,7 +33,7 @@ public class CheckForMovement : MonoBehaviour
     public GameObject pin10;
 
     [Header("Numbers")]
-    public int pinsKnockedDown;
+    public float pinsKnockedDown;
     public int ballsThrown;
     public int frames;
     public float score;
@@ -50,11 +50,9 @@ public class CheckForMovement : MonoBehaviour
     public Rigidbody pin9rb;
     public Rigidbody pin10rb;
 
-    [Header("Strings")]
-    private string scoreForFrame;
-
     [Header("Text")]
     public Text scoreText;
+    public Text frameText;
 
     [Header("Booleans")]
     public bool strikeBonus;
@@ -64,7 +62,7 @@ public class CheckForMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pinsKnockedDown = 0;
+        pinsKnockedDown = 0f;
         frames = 1;
     }
 
@@ -72,6 +70,7 @@ public class CheckForMovement : MonoBehaviour
     void Update()
     {
         scoreText.text = ("Total score: " + score);
+        frameText.text = ("Frame: " + frames);
     }
 
     public void MovementCheck()
@@ -82,90 +81,84 @@ public class CheckForMovement : MonoBehaviour
         if (Vector3.Distance(pin1.transform.position, pin1Pos.position) > threshold && pin1.activeInHierarchy == true)
         {
             pin1.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin2.transform.position, pin2Pos.position) > threshold && pin2.activeInHierarchy == true)
         {
             pin2.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin3.transform.position, pin3Pos.position) > threshold && pin3.activeInHierarchy == true)
         {
             pin3.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin4.transform.position, pin4Pos.position) > threshold && pin4.activeInHierarchy == true)
         {
             pin4.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin5.transform.position, pin5Pos.position) > threshold && pin5.activeInHierarchy == true)
         {
             pin5.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin6.transform.position, pin6Pos.position) > threshold && pin6.activeInHierarchy == true)
         {
             pin6.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin7.transform.position, pin7Pos.position) > threshold && pin7.activeInHierarchy == true)
         {
             pin7.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin8.transform.position, pin8Pos.position) > threshold && pin8.activeInHierarchy == true)
         {
             pin8.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin9.transform.position, pin9Pos.position) > threshold && pin9.activeInHierarchy == true)
         {
             pin9.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
         if (Vector3.Distance(pin10.transform.position, pin10Pos.position) > threshold && pin10.activeInHierarchy == true)
         {
             pin10.SetActive(false);
-            pinsKnockedDown += 1;
+            pinsKnockedDown += 1f;
         }
 
-        if (pinsKnockedDown == 10 && ballsThrown == 1)
+        if (pinsKnockedDown == 10f && ballsThrown == 1)
         {
             Debug.Log("Strike!");
-            scoreForFrame = "Strike";
+            score += 10f;
             strikeBonus = true;
             ResetPins();
         }
-        else if (pinsKnockedDown == 10 && ballsThrown == 2)
+        else if (pinsKnockedDown == 10f && ballsThrown == 2)
         {
             Debug.Log("Spare!");
-            scoreForFrame = "Spare";
+            score += 10f;
             spareBonus = true;
             ResetPins();
         }
 
-        if (ballsThrown == 2 && pinsKnockedDown != 10)
+        if (ballsThrown == 2 && pinsKnockedDown != 10f)
         {
             Debug.Log("Open frame. " + pinsKnockedDown + " pins knocked down.");
-            scoreForFrame = "openFrame";
+            score += pinsKnockedDown;
             openFrameBonus = true;
             ResetPins();
-        }
-
-        if (frames == 10)
-        {
-            coinbonus.coins += score;
-            Debug.Log("added score to amount of coins.");
         }
     }
 
@@ -223,23 +216,12 @@ public class CheckForMovement : MonoBehaviour
         pin10.transform.rotation = pin10Pos.rotation;
         pin10rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
+        if (frames == 11)
+        {
+            coinbonus.coins += score;
+        }
         
         pinsKnockedDown = 0;
         ballsThrown = 0;
-
-        if (scoreForFrame == "Strike")
-        {
-            score += 10f;
-        }
-
-        if (scoreForFrame == "Spare")
-        {
-            score += 10f;
-        }
-
-        if (scoreForFrame == "openFrame")
-        {
-            score += pinsKnockedDown;
-        }
     }
 }

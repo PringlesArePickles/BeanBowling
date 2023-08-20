@@ -358,6 +358,7 @@
 "Assets/Scripts/CheckForMovement.cs"
 "Assets/Scripts/CoinBonus.cs"
 "Assets/Scripts/DisableCollider.cs"
+"Assets/Scripts/LoadPlayScene.cs"
 "Assets/Scripts/RemoveConstraints.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
