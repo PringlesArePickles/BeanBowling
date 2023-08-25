@@ -336,6 +336,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BallThrow.cs"
 "Assets/Scripts/CheckForMovement.cs"
+"Assets/Scripts/ClearPlayerPrefsOnExit.cs"
 "Assets/Scripts/CoinBonus.cs"
 "Assets/Scripts/DisableCollider.cs"
 "Assets/Scripts/LoadScenes.cs"

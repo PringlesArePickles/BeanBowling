@@ -27,6 +27,9 @@ public class Shop : MonoBehaviour
     public Text garbanzoBeansText;
     public Text jellyBeansText;
 
+    [Header("Text")]
+    public Text coinText;
+
     [Header("Script references")]
     public CoinBonus coinBonus;
 
@@ -39,7 +42,8 @@ public class Shop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Coins in shop scene. Coins: " + PlayerPrefs.GetFloat("coins"));
+        coinText.text = ("Coins: " + PlayerPrefs.GetFloat("coins"));
     }
 
     public void refriedBeansFunction()

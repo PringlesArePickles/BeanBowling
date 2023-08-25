@@ -62,15 +62,19 @@ public class CheckForMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //frames = 1;
         pinsKnockedDown = 0f;
-        frames = 1;
+        //PlayerPrefs.SetInt("frames", frames + 1);
+        PlayerPrefs.SetInt("frames", frames);
+        frames = PlayerPrefs.GetInt("frames", 1);
+        PlayerPrefs.SetFloat("score", score);
     }
 
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = ("Total score: " + score);
-        frameText.text = ("Frame: " + frames);
+        scoreText.text = ("Total score: " + PlayerPrefs.GetFloat("score"));
+        frameText.text = ("Frame: " + PlayerPrefs.GetInt("frames"));
     }
 
     public void MovementCheck()
@@ -142,6 +146,7 @@ public class CheckForMovement : MonoBehaviour
         {
             Debug.Log("Strike!");
             score += 10f;
+            PlayerPrefs.SetFloat("score", score);
             strikeBonus = true;
             ResetPins();
         }
@@ -149,6 +154,7 @@ public class CheckForMovement : MonoBehaviour
         {
             Debug.Log("Spare!");
             score += 10f;
+            PlayerPrefs.SetFloat("score", score);
             spareBonus = true;
             ResetPins();
         }
@@ -157,6 +163,7 @@ public class CheckForMovement : MonoBehaviour
         {
             Debug.Log("Open frame. " + pinsKnockedDown + " pins knocked down.");
             score += pinsKnockedDown;
+            PlayerPrefs.SetFloat("score", score);
             openFrameBonus = true;
             ResetPins();
         }
@@ -165,6 +172,8 @@ public class CheckForMovement : MonoBehaviour
     public void ResetPins()
     {
         frames +=1 ;
+        PlayerPrefs.SetInt("frames", frames);
+        //frames = PlayerPrefs.GetInt("frames");
 
         pin1.SetActive(true);
         pin1.transform.position = pin1Pos.position;
