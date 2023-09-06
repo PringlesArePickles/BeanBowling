@@ -1,0 +1,31 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CheckForMovement">
+			<method name="SetScore"/>
+			<method name="SetScore"/>
+			<method name="SetScore"/>
+			<method name="SetScore"/>
+		</type>
+		<type fullname="CoinBonus">
+			<method name="SetCoins"/>
+		</type>
+		<type fullname="LoadScenes">
+			<method name="LoadHomeScene"/>
+			<method name="LoadPlayScene"/>
+			<method name="LoadPlayScene"/>
+			<method name="LoadShopScene"/>
+			<method name="LoadShopScene"/>
+		</type>
+		<type fullname="Shop">
+			<method name="blackBeansFunction"/>
+			<method name="garbanzoBeansFunction"/>
+			<method name="greenBeansFunction"/>
+			<method name="jellyBeansFunction"/>
+			<method name="kidneyBeansFunction"/>
+			<method name="lentilsFunction"/>
+			<method name="limaBeansFunction"/>
+			<method name="pintoBeansFunction"/>
+			<method name="refriedBeansFunction"/>
+		</type>
+	</assembly>
+</linker>

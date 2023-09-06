@@ -62,12 +62,11 @@ public class CheckForMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //frames = 1;
-        pinsKnockedDown = 0f;
-        //PlayerPrefs.SetInt("frames", frames + 1);
-        PlayerPrefs.SetInt("frames", frames);
-        frames = PlayerPrefs.GetInt("frames", 1);
+        score = PlayerPrefs.GetFloat("score");
         PlayerPrefs.SetFloat("score", score);
+        pinsKnockedDown = 0f;
+        frames = PlayerPrefs.GetInt("frames", 1);
+        PlayerPrefs.SetInt("frames", frames);
     }
 
     // Update is called once per frame
@@ -232,5 +231,12 @@ public class CheckForMovement : MonoBehaviour
         
         pinsKnockedDown = 0;
         ballsThrown = 0;
+    }
+
+    public void SetScore()
+    {
+        score = PlayerPrefs.GetFloat("score");
+        PlayerPrefs.SetFloat("score", score);
+        Debug.Log("Score " + PlayerPrefs.GetFloat("score"));
     }
 }

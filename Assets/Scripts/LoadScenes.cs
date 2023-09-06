@@ -25,7 +25,6 @@ public class LoadScenes : MonoBehaviour
     public void LoadShopScene()
     {
         SceneManager.LoadScene("ShopScreen");
-        Debug.Log("coins in play scene. Coins: " + PlayerPrefs.GetFloat("coins"));
     }
 
     public void LoadHomeScene()

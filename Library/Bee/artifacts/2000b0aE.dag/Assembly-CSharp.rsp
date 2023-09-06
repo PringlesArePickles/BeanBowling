@@ -334,6 +334,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/BallMaterialScript.cs"
 "Assets/Scripts/BallThrow.cs"
 "Assets/Scripts/CheckForMovement.cs"
 "Assets/Scripts/ClearPlayerPrefsOnExit.cs"
