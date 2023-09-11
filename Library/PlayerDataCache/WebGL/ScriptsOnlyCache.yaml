@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BallMaterialScript
     - BallThrow
     - CheckForMovement
     - CoinBonus
@@ -8,6 +9,7 @@ ScriptsOnlyBuild:
     - LoadScenes
     - RemoveConstraints
     - Shop
+    - Upgrade
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineComposer
@@ -119,6 +121,24 @@ ScriptsOnlyBuild:
     fullTypeName: LoadScenes
     methodName: LoadPlayScene
   - assembly: Assembly-CSharp
+    fullTypeName: Upgrade
+    methodName: Upgrade1
+  - assembly: Assembly-CSharp
+    fullTypeName: Upgrade
+    methodName: Upgrade2
+  - assembly: Assembly-CSharp
+    fullTypeName: Upgrade
+    methodName: Upgrade3
+  - assembly: Assembly-CSharp
+    fullTypeName: Upgrade
+    methodName: Upgrade4
+  - assembly: Assembly-CSharp
+    fullTypeName: Upgrade
+    methodName: Upgrade5
+  - assembly: Assembly-CSharp
+    fullTypeName: Upgrade
+    methodName: increaseAmountUpgraded
+  - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: lentilsFunction
   - assembly: Assembly-CSharp
@@ -194,6 +214,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5070}
     - Class: 114
+      Script: {instanceID: 5246}
+    - Class: 114
       Script: {instanceID: 5492}
     - Class: 114
       Script: {instanceID: 5778}
@@ -213,6 +235,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7416}
     - Class: 114
       Script: {instanceID: 7906}
+    - Class: 114
+      Script: {instanceID: 144542}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -336,6 +360,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4036}
     - Class: 114
+      Script: {instanceID: 4424}
+    - Class: 114
       Script: {instanceID: 5246}
     - Class: 114
       Script: {instanceID: 5778}
@@ -345,6 +371,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6662}
     - Class: 114
       Script: {instanceID: 7906}
+    - Class: 114
+      Script: {instanceID: 175702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -946,7 +974,7 @@ ScriptsOnlyBuild:
     className: CameraController
   - hash:
       serializedVersion: 2
-      Hash: ca274d70210ff21778e0f8bc447b1657
+      Hash: 17def93d4867e79605e93aad8b45ce67
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BallThrow
@@ -1102,7 +1130,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 87c8278a59172f889242ef8f8077ab5a
+      Hash: 8b378c0979f54a5d79a18da3fa446f25
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Shop
@@ -1682,6 +1710,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cc1e53d0831c69145661cd0acc9ce331
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallMaterialScript
+  - hash:
+      serializedVersion: 2
+      Hash: 22750429c7c950eaa4d8d19a0f51f361
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Upgrade
   platform: 20
   scenePathNames:
   - Assets/Scenes/HomeScreen.unity

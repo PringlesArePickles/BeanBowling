@@ -12,7 +12,7 @@ public class BallThrow : MonoBehaviour
     public GameObject cam;
 
     [Header("Numbers")]
-    private float throwPower = 185f;
+    public float throwPower;
 
     [Header("Script references")]
     public CheckForMovement cfm;
@@ -39,6 +39,7 @@ public class BallThrow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        throwPower = PlayerPrefs.GetFloat("throwPower", 185f);
         powerNumberText.text = throwPower.ToString(); //powerText shows the throw power float as a string
 
         if (Input.GetKeyUp(KeyCode.Space) && canThrow == true) //if space is pressed
@@ -65,7 +66,7 @@ public class BallThrow : MonoBehaviour
     {
         cfm.ballsThrown += 1;
         rb.constraints = RigidbodyConstraints.None; //remove rigidbody constraints
-        rb.AddForce(0f, 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
+        rb.AddForce(Random.Range(-5f, 5f), 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
         Invoke("ResetBall", 7.5f); //call reset ball function after 7 seconds
         canThrow = false; //ball can no longer be thrown;
     }
