@@ -5,10 +5,14 @@ using UnityEngine.UI;
 
 public class Upgrade : MonoBehaviour
 {
+    [Header("integers")]
     private int amountUpgraded;
+    private int canUpgrade;
+    [Header("script references")]
     public CoinBonus coinBonus;
     public BallThrow ballThrow;
 
+    [Header("texts")]
     public Text upgradeText;
 
     [Header("buttons")]
@@ -112,8 +116,6 @@ public class Upgrade : MonoBehaviour
 
         if (coinBonus.coins >= 1000f)
         {
-
-        
             button4.SetActive(false);
 
             coinBonus.coins -= 1000f;
@@ -135,9 +137,8 @@ public class Upgrade : MonoBehaviour
         amountUpgraded = PlayerPrefs.GetInt("amountUpgraded");
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
 
-        if (coinBonus.coins >= 1000f)
+        if (coinBonus.coins >= 1000f && canUpgrade != 1)
         {
-        
             button5.SetActive(false);
 
             coinBonus.coins -= 1000f;
