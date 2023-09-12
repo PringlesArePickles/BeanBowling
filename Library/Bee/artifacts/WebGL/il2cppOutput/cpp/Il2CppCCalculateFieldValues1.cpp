@@ -10237,22 +10237,24 @@ struct Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA  : public MonoBehaviour
 {
 	// System.Int32 Upgrade::amountUpgraded
 	int32_t ___amountUpgraded_4;
+	// System.Int32 Upgrade::canUpgrade
+	int32_t ___canUpgrade_5;
 	// CoinBonus Upgrade::coinBonus
-	CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* ___coinBonus_5;
+	CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* ___coinBonus_6;
 	// BallThrow Upgrade::ballThrow
-	BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* ___ballThrow_6;
+	BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* ___ballThrow_7;
 	// UnityEngine.UI.Text Upgrade::upgradeText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___upgradeText_7;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___upgradeText_8;
 	// UnityEngine.GameObject Upgrade::button1
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button1_8;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button1_9;
 	// UnityEngine.GameObject Upgrade::button2
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button2_9;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button2_10;
 	// UnityEngine.GameObject Upgrade::button3
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button3_10;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button3_11;
 	// UnityEngine.GameObject Upgrade::button4
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button4_11;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button4_12;
 	// UnityEngine.GameObject Upgrade::button5
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button5_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button5_13;
 };
 
 // TMPro.Examples.VertexColorCycler
@@ -12460,9 +12462,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3582[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3583[29] = 
 {
 	static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___refriedBeansText_4)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___pintoBeansText_5)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___limaBeansText_6)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___kidneyBeansText_7)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___blackBeansText_8)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___lentilsText_9)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___greenBeansText_10)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___garbanzoBeansText_11)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___jellyBeansText_12)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___coinText_13)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___rbText_14)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___pbText_15)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___lbText_16)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___kbText_17)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___bbText_18)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___lText_19)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___greenbText_20)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___garbanzobText_21)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___jbText_22)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___coinBonus_23)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___pintoBeansOwned_24)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___limaBeansOwned_25)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___kidneyBeansOwned_26)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___blackBeansOwned_27)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___lentilsOwned_28)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___greenBeansOwned_29)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___garbanzoBeansOwned_30)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___jellyBeansOwned_31)),static_cast<int32_t>(offsetof(Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3, ___ballMaterial_32)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3584[9] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3584[10] = 
 {
-	static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___amountUpgraded_4)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___coinBonus_5)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___ballThrow_6)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___upgradeText_7)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button1_8)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button2_9)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button3_10)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button4_11)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button5_12)),};
+	static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___amountUpgraded_4)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___canUpgrade_5)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___coinBonus_6)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___ballThrow_7)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___upgradeText_8)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button1_9)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button2_10)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button3_11)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button4_12)),static_cast<int32_t>(offsetof(Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA, ___button5_13)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3585[3] = 
 {
 	static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatInputField_4)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatDisplayOutput_5)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatScrollbar_6)),};

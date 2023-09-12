@@ -4307,22 +4307,24 @@ struct Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA  : public MonoBehaviour
 {
 	// System.Int32 Upgrade::amountUpgraded
 	int32_t ___amountUpgraded_4;
+	// System.Int32 Upgrade::canUpgrade
+	int32_t ___canUpgrade_5;
 	// CoinBonus Upgrade::coinBonus
-	CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* ___coinBonus_5;
+	CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* ___coinBonus_6;
 	// BallThrow Upgrade::ballThrow
-	BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* ___ballThrow_6;
+	BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* ___ballThrow_7;
 	// UnityEngine.UI.Text Upgrade::upgradeText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___upgradeText_7;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___upgradeText_8;
 	// UnityEngine.GameObject Upgrade::button1
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button1_8;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button1_9;
 	// UnityEngine.GameObject Upgrade::button2
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button2_9;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button2_10;
 	// UnityEngine.GameObject Upgrade::button3
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button3_10;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button3_11;
 	// UnityEngine.GameObject Upgrade::button4
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button4_11;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button4_12;
 	// UnityEngine.GameObject Upgrade::button5
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button5_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button5_13;
 };
 
 // UnityEngine.UI.Graphic
@@ -5949,6 +5951,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckForMovement_ResetPins_mE15A5D519CED21C3C4823CDC374123D73640241E (CheckForMovement_t9E4DF0E12A47681A3BAD4B6F38DEB9FCB97F74AA* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___sceneName0, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.BoxCollider>()
 inline BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* Component_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m59698092F1230C6FB7F40D0F58F643A931A732D7 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -5956,8 +5960,6 @@ inline BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* Component_GetCompo
 }
 // System.Void UnityEngine.Collider::set_enabled(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___value0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___sceneName0, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.Rigidbody>()
 inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -7029,10 +7031,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallThrow_ThrowBall_mCEC696D71E064855D72
 		// rb.constraints = RigidbodyConstraints.None; //remove rigidbody constraints
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___rb_4;
 		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_3, 0, NULL);
-		// rb.AddForce(Random.Range(-5f, 5f), 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
+		// rb.AddForce(Random.Range(-2.5f, 2.5f), 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->___rb_4;
 		float L_5;
-		L_5 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-5.0f), (5.0f), NULL);
+		L_5 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-2.5f), (2.5f), NULL);
 		float L_6 = __this->___throwPower_8;
 		Rigidbody_AddForce_m264F2851A456AA18D4F04B21AF23814E61A39B75(L_4, L_5, (0.0f), L_6, 1, NULL);
 		// Invoke("ResetBall", 7.5f); //call reset ball function after 7 seconds
@@ -7744,6 +7746,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckForMovement_ResetPins_mE15A5D519CED
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1C534C606A1890F0E64EBAE7A2375B0FFBC92FE4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD4CA3F7CB7FD1A342D9893CDAD1380F3EB0A65C8);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -7978,7 +7982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckForMovement_ResetPins_mE15A5D519CED
 		int32_t L_102 = __this->___frames_27;
 		if ((!(((uint32_t)L_102) == ((uint32_t)((int32_t)11)))))
 		{
-			goto IL_0356;
+			goto IL_0360;
 		}
 	}
 	{
@@ -7988,9 +7992,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckForMovement_ResetPins_mE15A5D519CED
 		float L_105 = L_104->___coins_5;
 		float L_106 = __this->___score_28;
 		L_104->___coins_5 = ((float)il2cpp_codegen_add(L_105, L_106));
+		// SceneManager.LoadScene("BeanBowling");
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral1C534C606A1890F0E64EBAE7A2375B0FFBC92FE4, NULL);
 	}
 
-IL_0356:
+IL_0360:
 	{
 		// pinsKnockedDown = 0;
 		__this->___pinsKnockedDown_25 = (0.0f);
@@ -10353,12 +10360,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Start_mD4EE907F851EDF672AF7E8BB7
 	}
 	{
 		// ballThrow.throwPower = PlayerPrefs.GetFloat("throwPower", 185f);
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_0 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_0 = __this->___ballThrow_7;
 		float L_1;
 		L_1 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, (185.0f), NULL);
 		L_0->___throwPower_8 = L_1;
 		// PlayerPrefs.SetFloat("throwPower", ballThrow.throwPower);
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_2 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_2 = __this->___ballThrow_7;
 		float L_3 = L_2->___throwPower_8;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, L_3, NULL);
 		// }
@@ -10386,7 +10393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Update_mB6ED8FF1EBC95ED0993FAD95
 	}
 	{
 		// upgradeText.text = "Max";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___upgradeText_7;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___upgradeText_8;
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, _stringLiteral5B615C8D64F050A4B841840469BBCCA764121BFC);
 	}
 
@@ -10415,12 +10422,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade1_mB506B9035605A46D34AC56
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, 0, NULL);
 		__this->___amountUpgraded_4 = L_0;
 		// coinBonus.coins = PlayerPrefs.GetFloat("coins");
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_6;
 		float L_2;
 		L_2 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, NULL);
 		L_1->___coins_5 = L_2;
 		// if (coinBonus.coins >= 1000f)
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_6;
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(1000.0f)))))
 		{
@@ -10429,29 +10436,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade1_mB506B9035605A46D34AC56
 	}
 	{
 		// button1.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button1_8;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button1_9;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
 		// coinBonus.coins -= 1000f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_6;
 		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_7 = L_6;
 		float L_8 = L_7->___coins_5;
 		L_7->___coins_5 = ((float)il2cpp_codegen_subtract(L_8, (1000.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_6;
 		float L_10 = L_9->___coins_5;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_10, NULL);
 		// ballThrow.throwPower = PlayerPrefs.GetFloat("throwPower");
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_7;
 		float L_12;
 		L_12 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, NULL);
 		L_11->___throwPower_8 = L_12;
 		// ballThrow.throwPower += 65f;
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_7;
 		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_14 = L_13;
 		float L_15 = L_14->___throwPower_8;
 		L_14->___throwPower_8 = ((float)il2cpp_codegen_add(L_15, (65.0f)));
 		// PlayerPrefs.SetFloat("throwPower", ballThrow.throwPower);
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_7;
 		float L_17 = L_16->___throwPower_8;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, L_17, NULL);
 		// amountUpgraded ++;
@@ -10493,12 +10500,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade2_mD76ABBEB20F76036ED0D3B
 		L_0 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, NULL);
 		__this->___amountUpgraded_4 = L_0;
 		// coinBonus.coins = PlayerPrefs.GetFloat("coins");
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_6;
 		float L_2;
 		L_2 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, NULL);
 		L_1->___coins_5 = L_2;
 		// if (coinBonus.coins >= 1000f)
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_6;
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(1000.0f)))))
 		{
@@ -10507,29 +10514,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade2_mD76ABBEB20F76036ED0D3B
 	}
 	{
 		// button2.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button2_9;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button2_10;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
 		// coinBonus.coins -= 1000f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_6;
 		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_7 = L_6;
 		float L_8 = L_7->___coins_5;
 		L_7->___coins_5 = ((float)il2cpp_codegen_subtract(L_8, (1000.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_6;
 		float L_10 = L_9->___coins_5;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_10, NULL);
 		// ballThrow.throwPower = PlayerPrefs.GetFloat("throwPower");
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_7;
 		float L_12;
 		L_12 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, NULL);
 		L_11->___throwPower_8 = L_12;
 		// ballThrow.throwPower += 50f;
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_7;
 		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_14 = L_13;
 		float L_15 = L_14->___throwPower_8;
 		L_14->___throwPower_8 = ((float)il2cpp_codegen_add(L_15, (50.0f)));
 		// PlayerPrefs.SetFloat("throwPower", ballThrow.throwPower);
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_7;
 		float L_17 = L_16->___throwPower_8;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, L_17, NULL);
 		// amountUpgraded ++;
@@ -10571,12 +10578,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade3_m552177FE6AB40B5B561AEA
 		L_0 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, NULL);
 		__this->___amountUpgraded_4 = L_0;
 		// coinBonus.coins = PlayerPrefs.GetFloat("coins");
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_6;
 		float L_2;
 		L_2 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, NULL);
 		L_1->___coins_5 = L_2;
 		// if (coinBonus.coins >= 1000f)
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_6;
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(1000.0f)))))
 		{
@@ -10585,29 +10592,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade3_m552177FE6AB40B5B561AEA
 	}
 	{
 		// button3.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button3_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button3_11;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
 		// coinBonus.coins -= 1000f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_6;
 		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_7 = L_6;
 		float L_8 = L_7->___coins_5;
 		L_7->___coins_5 = ((float)il2cpp_codegen_subtract(L_8, (1000.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_6;
 		float L_10 = L_9->___coins_5;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_10, NULL);
 		// ballThrow.throwPower = PlayerPrefs.GetFloat("throwPower");
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_7;
 		float L_12;
 		L_12 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, NULL);
 		L_11->___throwPower_8 = L_12;
 		// ballThrow.throwPower += 35f;
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_7;
 		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_14 = L_13;
 		float L_15 = L_14->___throwPower_8;
 		L_14->___throwPower_8 = ((float)il2cpp_codegen_add(L_15, (35.0f)));
 		// PlayerPrefs.SetFloat("throwPower", ballThrow.throwPower);
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_7;
 		float L_17 = L_16->___throwPower_8;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, L_17, NULL);
 		// amountUpgraded ++;
@@ -10649,12 +10656,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade4_m756CC95B0DF0526DA81FA2
 		L_0 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, NULL);
 		__this->___amountUpgraded_4 = L_0;
 		// coinBonus.coins = PlayerPrefs.GetFloat("coins");
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_6;
 		float L_2;
 		L_2 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, NULL);
 		L_1->___coins_5 = L_2;
 		// if (coinBonus.coins >= 1000f)
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_6;
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(1000.0f)))))
 		{
@@ -10663,29 +10670,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade4_m756CC95B0DF0526DA81FA2
 	}
 	{
 		// button4.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button4_11;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button4_12;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
 		// coinBonus.coins -= 1000f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_6;
 		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_7 = L_6;
 		float L_8 = L_7->___coins_5;
 		L_7->___coins_5 = ((float)il2cpp_codegen_subtract(L_8, (1000.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_6;
 		float L_10 = L_9->___coins_5;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_10, NULL);
 		// ballThrow.throwPower = PlayerPrefs.GetFloat("throwPower");
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_7;
 		float L_12;
 		L_12 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, NULL);
 		L_11->___throwPower_8 = L_12;
 		// ballThrow.throwPower += 25f;
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_7;
 		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_14 = L_13;
 		float L_15 = L_14->___throwPower_8;
 		L_14->___throwPower_8 = ((float)il2cpp_codegen_add(L_15, (25.0f)));
 		// PlayerPrefs.SetFloat("throwPower", ballThrow.throwPower);
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_6;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_7;
 		float L_17 = L_16->___throwPower_8;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, L_17, NULL);
 		// amountUpgraded ++;
@@ -10727,60 +10734,67 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Upgrade_Upgrade5_mEEA93B2B4C4C0F4F2C301C
 		L_0 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, NULL);
 		__this->___amountUpgraded_4 = L_0;
 		// coinBonus.coins = PlayerPrefs.GetFloat("coins");
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_5;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_1 = __this->___coinBonus_6;
 		float L_2;
 		L_2 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, NULL);
 		L_1->___coins_5 = L_2;
-		// if (coinBonus.coins >= 1000f)
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_5;
+		// if (coinBonus.coins >= 1000f && canUpgrade != 1)
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_6;
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(1000.0f)))))
 		{
-			goto IL_00eb;
+			goto IL_00f7;
+		}
+	}
+	{
+		int32_t L_5 = __this->___canUpgrade_5;
+		if ((((int32_t)L_5) == ((int32_t)1)))
+		{
+			goto IL_00f7;
 		}
 	}
 	{
 		// button5.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___button5_12;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___button5_13;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
 		// coinBonus.coins -= 1000f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_5;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_7 = L_6;
-		float L_8 = L_7->___coins_5;
-		L_7->___coins_5 = ((float)il2cpp_codegen_subtract(L_8, (1000.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_7 = __this->___coinBonus_6;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = L_7;
+		float L_9 = L_8->___coins_5;
+		L_8->___coins_5 = ((float)il2cpp_codegen_subtract(L_9, (1000.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_5;
-		float L_10 = L_9->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_10, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_10 = __this->___coinBonus_6;
+		float L_11 = L_10->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_11, NULL);
 		// ballThrow.throwPower = PlayerPrefs.GetFloat("throwPower");
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_11 = __this->___ballThrow_6;
-		float L_12;
-		L_12 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, NULL);
-		L_11->___throwPower_8 = L_12;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_12 = __this->___ballThrow_7;
+		float L_13;
+		L_13 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, NULL);
+		L_12->___throwPower_8 = L_13;
 		// ballThrow.throwPower += 15f;
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_13 = __this->___ballThrow_6;
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_14 = L_13;
-		float L_15 = L_14->___throwPower_8;
-		L_14->___throwPower_8 = ((float)il2cpp_codegen_add(L_15, (15.0f)));
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_14 = __this->___ballThrow_7;
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_15 = L_14;
+		float L_16 = L_15->___throwPower_8;
+		L_15->___throwPower_8 = ((float)il2cpp_codegen_add(L_16, (15.0f)));
 		// PlayerPrefs.SetFloat("throwPower", ballThrow.throwPower);
-		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_16 = __this->___ballThrow_6;
-		float L_17 = L_16->___throwPower_8;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, L_17, NULL);
+		BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* L_17 = __this->___ballThrow_7;
+		float L_18 = L_17->___throwPower_8;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E, L_18, NULL);
 		// amountUpgraded ++;
-		int32_t L_18 = __this->___amountUpgraded_4;
-		__this->___amountUpgraded_4 = ((int32_t)il2cpp_codegen_add(L_18, 1));
-		// PlayerPrefs.SetInt("amountUpgraded", amountUpgraded);
 		int32_t L_19 = __this->___amountUpgraded_4;
-		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, L_19, NULL);
+		__this->___amountUpgraded_4 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+		// PlayerPrefs.SetInt("amountUpgraded", amountUpgraded);
+		int32_t L_20 = __this->___amountUpgraded_4;
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, L_20, NULL);
 		// Debug.Log("upgrade 5");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralA74476BBA6C96F738C8FD689ED9AEB0FED111E91, NULL);
 		// PlayerPrefs.SetInt("amountUpgraded", amountUpgraded);
-		int32_t L_20 = __this->___amountUpgraded_4;
-		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, L_20, NULL);
+		int32_t L_21 = __this->___amountUpgraded_4;
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralEAFD628A175B5F24D9F1E6766C0E767325DFE848, L_21, NULL);
 	}
 
-IL_00eb:
+IL_00f7:
 	{
 		// }
 		return;

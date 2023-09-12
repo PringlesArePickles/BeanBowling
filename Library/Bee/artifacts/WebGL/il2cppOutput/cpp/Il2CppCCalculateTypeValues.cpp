@@ -51200,22 +51200,24 @@ struct Upgrade_tC636B751FDAE39EC324E63552527F78D6C742BAA  : public MonoBehaviour
 {
 	// System.Int32 Upgrade::amountUpgraded
 	int32_t ___amountUpgraded_4;
+	// System.Int32 Upgrade::canUpgrade
+	int32_t ___canUpgrade_5;
 	// CoinBonus Upgrade::coinBonus
-	CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* ___coinBonus_5;
+	CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* ___coinBonus_6;
 	// BallThrow Upgrade::ballThrow
-	BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* ___ballThrow_6;
+	BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* ___ballThrow_7;
 	// UnityEngine.UI.Text Upgrade::upgradeText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___upgradeText_7;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___upgradeText_8;
 	// UnityEngine.GameObject Upgrade::button1
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button1_8;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button1_9;
 	// UnityEngine.GameObject Upgrade::button2
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button2_9;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button2_10;
 	// UnityEngine.GameObject Upgrade::button3
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button3_10;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button3_11;
 	// UnityEngine.GameObject Upgrade::button4
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button4_11;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button4_12;
 	// UnityEngine.GameObject Upgrade::button5
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button5_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___button5_13;
 };
 
 // TMPro.Examples.VertexColorCycler

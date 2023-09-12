@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CheckForMovement : MonoBehaviour
 {
@@ -227,6 +228,7 @@ public class CheckForMovement : MonoBehaviour
         if (frames == 11)
         {
             coinbonus.coins += score;
+            SceneManager.LoadScene("BeanBowling");
         }
         
         pinsKnockedDown = 0;

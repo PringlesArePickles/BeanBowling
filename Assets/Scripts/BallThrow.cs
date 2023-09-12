@@ -66,7 +66,7 @@ public class BallThrow : MonoBehaviour
     {
         cfm.ballsThrown += 1;
         rb.constraints = RigidbodyConstraints.None; //remove rigidbody constraints
-        rb.AddForce(Random.Range(-5f, 5f), 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
+        rb.AddForce(Random.Range(-2.5f, 2.5f), 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
         Invoke("ResetBall", 7.5f); //call reset ball function after 7 seconds
         canThrow = false; //ball can no longer be thrown;
     }
