@@ -61,7 +61,7 @@ public class Shop : MonoBehaviour
     void Update()
     {
         //Debug.Log("Coins in shop scene. Coins: " + PlayerPrefs.GetFloat("coins"));
-        coinText.text = ("Coins: " + PlayerPrefs.GetFloat("coins"));
+        coinText.text = ("Coins: " + Mathf.Round(PlayerPrefs.GetFloat("coins")));
 
         if (pintoBeansOwned == 1f)
         {

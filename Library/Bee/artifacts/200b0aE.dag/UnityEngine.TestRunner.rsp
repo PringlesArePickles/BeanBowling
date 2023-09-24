@@ -120,6 +120,7 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Users/ry/Documents/GitHub/BeanBowling/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"/Users/ry/Documents/Ryan Unity/2021.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Users/ry/Documents/Ryan Unity/2021.3.15f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Users/ry/Documents/Ryan Unity/2021.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/Users/ry/Documents/Ryan Unity/2021.3.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

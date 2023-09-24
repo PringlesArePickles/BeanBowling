@@ -225,11 +225,11 @@ public class CheckForMovement : MonoBehaviour
         pin10.transform.rotation = pin10Pos.rotation;
         pin10rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 
-        if (frames == 11)
+        /*if (frames == 11)
         {
             coinbonus.coins += score;
             SceneManager.LoadScene("BeanBowling");
-        }
+        }*/
         
         pinsKnockedDown = 0;
         ballsThrown = 0;

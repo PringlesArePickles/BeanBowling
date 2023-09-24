@@ -23,7 +23,7 @@ public class CoinBonus : MonoBehaviour
         if (cfm.strikeBonus == true)
         {
             cfm.strikeBonus = false;
-            coins += 100f * multiplier;
+            coins += 100f * PlayerPrefs.GetFloat("multiplier")/*100f * multiplier*/;
             PlayerPrefs.SetFloat("coins", coins);
             multiplier += 0.5f;
             PlayerPrefs.SetFloat("multiplier", multiplier);
@@ -32,7 +32,7 @@ public class CoinBonus : MonoBehaviour
         else if (cfm.spareBonus == true)
         {
             cfm.spareBonus = false;
-            coins += 50f * multiplier;
+            coins += 50f * PlayerPrefs.GetFloat("multiplier");
             PlayerPrefs.SetFloat("coins", coins);
             multiplier += 0.25f;
             PlayerPrefs.SetFloat("multiplier", multiplier);
@@ -46,7 +46,7 @@ public class CoinBonus : MonoBehaviour
             multiplier = PlayerPrefs.GetFloat("multiplier");
         }
 
-        coinText.text = ("Coins: " + PlayerPrefs.GetFloat("coins"));
+        coinText.text = ("Coins: " + Mathf.Round(PlayerPrefs.GetFloat("coins")));
         coinMultiplierText.text = ("Multiplier: " + PlayerPrefs.GetFloat("multiplier"));
     }
 

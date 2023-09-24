@@ -49782,20 +49782,22 @@ struct BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776  : public MonoBehavio
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___camOrigin_6;
 	// UnityEngine.GameObject BallThrow::cam
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cam_7;
+	// UnityEngine.GameObject BallThrow::ball
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___ball_8;
 	// System.Single BallThrow::throwPower
-	float ___throwPower_8;
+	float ___throwPower_9;
 	// CheckForMovement BallThrow::cfm
-	CheckForMovement_t9E4DF0E12A47681A3BAD4B6F38DEB9FCB97F74AA* ___cfm_9;
+	CheckForMovement_t9E4DF0E12A47681A3BAD4B6F38DEB9FCB97F74AA* ___cfm_10;
 	// RemoveConstraints BallThrow::rc
-	RemoveConstraints_t3E77733CD109E85A4212BCD4C514CF05F1EF83C5* ___rc_10;
+	RemoveConstraints_t3E77733CD109E85A4212BCD4C514CF05F1EF83C5* ___rc_11;
 	// System.Boolean BallThrow::canThrow
-	bool ___canThrow_11;
+	bool ___canThrow_12;
 	// System.Boolean BallThrow::canMoveLeft
-	bool ___canMoveLeft_12;
+	bool ___canMoveLeft_13;
 	// System.Boolean BallThrow::canMoveRight
-	bool ___canMoveRight_13;
+	bool ___canMoveRight_14;
 	// UnityEngine.UI.Text BallThrow::powerNumberText
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___powerNumberText_14;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___powerNumberText_15;
 };
 
 // UnityEngine.UIElements.BaseBoolField

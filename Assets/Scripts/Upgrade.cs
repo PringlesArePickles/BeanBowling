@@ -36,6 +36,8 @@ public class Upgrade : MonoBehaviour
         if (PlayerPrefs.GetInt("amountUpgraded") == 5)
         {
             upgradeText.text = "Max";
+            amountUpgraded = 0;
+            PlayerPrefs.SetInt("amountUpgraded", amountUpgraded);
         }
         
     }
@@ -136,6 +138,7 @@ public class Upgrade : MonoBehaviour
     {
         amountUpgraded = PlayerPrefs.GetInt("amountUpgraded");
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        canUpgrade = PlayerPrefs.GetInt("canUpgrade");
 
         if (coinBonus.coins >= 1000f && canUpgrade != 1)
         {

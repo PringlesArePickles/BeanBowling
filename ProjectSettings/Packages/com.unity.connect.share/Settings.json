@@ -21,7 +21,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"\"}"
+                "value": "{\"m_Value\":\"/Users/ry/Documents/GitHub/testing play fiels/beanbowlingplayfiles;/Users/ry/Documents/GitHub/BeanBowling/BeanBowlingWebGL;/Users/ry/Documents/GitHub/BeanBowlingWebGL/BeanBowlingWebGL;/Users/ry/Documents/GitHub/BeanBowlingWebGL;;;;;;\"}"
             }
         ]
     }

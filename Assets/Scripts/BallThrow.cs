@@ -10,6 +10,7 @@ public class BallThrow : MonoBehaviour
     public Transform ballOrigin;
     public Transform camOrigin;
     public GameObject cam;
+    public GameObject ball;
 
     [Header("Numbers")]
     public float throwPower;
@@ -47,18 +48,36 @@ public class BallThrow : MonoBehaviour
             ThrowBall(); //call ThrowBall() function
         }
 
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) && canMoveLeft == true && canThrow == true) //if "a" or left arrow key was pressed
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && canMoveLeft == true && canThrow == true) //if "a" or left arrow key was pressed
         {
             gameObject.transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
             cam.transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y, transform.position.z);
             //change position a tiny bit in the negative direction
         }
 
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow) && canMoveRight == true && canThrow == true) //if "d" or right arrow key was pressed
+        if (Input.GetKeyDown(KeyCode.RightArrow) && canMoveRight == true && canThrow == true) //if "d" or right arrow key was pressed
         {
             gameObject.transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
             cam.transform.position = new Vector3(transform.position.x + 0.2f, transform.position.y, transform.position.z);
             //change positioin a tiny bit in positive direction
+        }
+
+        if (ball.transform.position.x <= -4.5f)
+        {
+            canMoveLeft = false;
+            Debug.Log("barreir");
+        }
+        
+        if (ball.transform.position.x >= 4.5f)
+        {
+            canMoveRight = false;
+            Debug.Log("barreir");
+        }
+        
+        if (ball.transform.position.x > -4.5f && ball.transform.position.x < 4.5f)
+        {
+            canMoveRight = true;
+            canMoveLeft = true;
         }
     }
 
@@ -66,9 +85,11 @@ public class BallThrow : MonoBehaviour
     {
         cfm.ballsThrown += 1;
         rb.constraints = RigidbodyConstraints.None; //remove rigidbody constraints
-        rb.AddForce(Random.Range(-2.5f, 2.5f), 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
+        rb.AddForce(Random.Range(-3f, 3f), 0f, throwPower, ForceMode.Impulse); //throw ball with impulse force
         Invoke("ResetBall", 7.5f); //call reset ball function after 7 seconds
         canThrow = false; //ball can no longer be thrown;
+        canMoveLeft = false;
+        canMoveRight = false;
     }
 
     public void ResetBall()
@@ -81,26 +102,7 @@ public class BallThrow : MonoBehaviour
         cam.transform.position = camOrigin.position; //put camera in original position
         cam.transform.rotation = camOrigin.rotation; //put camera in original rotation
         canThrow = true; //ball can throw
-    }
-
-    public void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag == "leftBarrier")
-        {
-            canMoveLeft = false;
-        }
-        else
-        {
-            canMoveLeft = true;
-        }
-        
-        if (other.gameObject.tag == "rightBarrier")
-        {
-            canMoveRight = false;
-        }
-        else
-        {
-            canMoveRight = true;
-        }
+        canMoveLeft = true;
+        canMoveRight = true;
     }
 }

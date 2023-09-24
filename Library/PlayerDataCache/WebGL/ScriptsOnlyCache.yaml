@@ -18,7 +18,6 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     Unity.Play.Publisher.Editor.dll:
     - Unity.Play.Publisher.Editor.AnalyticsHelper
-    - Unity.Play.Publisher.Editor.PublisherWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -112,11 +111,11 @@ ScriptsOnlyBuild:
     fullTypeName: Shop
     methodName: limaBeansFunction
   - assembly: Assembly-CSharp
-    fullTypeName: CoinBonus
-    methodName: SetCoins
-  - assembly: Assembly-CSharp
     fullTypeName: CheckForMovement
     methodName: SetScore
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadScenes
+    methodName: LoadHomeScene
   - assembly: Assembly-CSharp
     fullTypeName: Shop
     methodName: refriedBeansFunction
@@ -974,7 +973,7 @@ ScriptsOnlyBuild:
     className: CameraController
   - hash:
       serializedVersion: 2
-      Hash: 17def93d4867e79605e93aad8b45ce67
+      Hash: a877b337f02657c6fda84c77ce153bb0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BallThrow
@@ -1727,4 +1726,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/HomeScreen.unity
   - Assets/Scenes/ShopScreen.unity
   - Assets/Scenes/BeanBowling.unity
-  playerPath: /Users/ry/Documents/GitHub/BeanBowling/BeanBowlingWebGL/Build
+  playerPath: /Users/ry/Documents/GitHub/testing play fiels/beanbowlingplayfiles

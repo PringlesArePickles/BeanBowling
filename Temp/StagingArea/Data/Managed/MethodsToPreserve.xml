@@ -6,10 +6,8 @@
 			<method name="SetScore"/>
 			<method name="SetScore"/>
 		</type>
-		<type fullname="CoinBonus">
-			<method name="SetCoins"/>
-		</type>
 		<type fullname="LoadScenes">
+			<method name="LoadHomeScene"/>
 			<method name="LoadHomeScene"/>
 			<method name="LoadPlayScene"/>
 			<method name="LoadPlayScene"/>
