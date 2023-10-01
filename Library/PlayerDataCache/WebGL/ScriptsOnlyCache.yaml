@@ -114,6 +114,9 @@ ScriptsOnlyBuild:
     fullTypeName: CheckForMovement
     methodName: SetScore
   - assembly: Assembly-CSharp
+    fullTypeName: CoinBonus
+    methodName: SetCoins
+  - assembly: Assembly-CSharp
     fullTypeName: LoadScenes
     methodName: LoadHomeScene
   - assembly: Assembly-CSharp
@@ -132,6 +135,9 @@ ScriptsOnlyBuild:
     fullTypeName: CheckForMovement
     methodName: SetScore
   - assembly: Assembly-CSharp
+    fullTypeName: CoinBonus
+    methodName: SetCoins
+  - assembly: Assembly-CSharp
     fullTypeName: LoadScenes
     methodName: LoadPlayScene
   - assembly: Assembly-CSharp
@@ -147,11 +153,17 @@ ScriptsOnlyBuild:
     fullTypeName: CheckForMovement
     methodName: SetScore
   - assembly: Assembly-CSharp
+    fullTypeName: CoinBonus
+    methodName: SetCoins
+  - assembly: Assembly-CSharp
     fullTypeName: LoadScenes
     methodName: LoadHomeScene
   - assembly: Assembly-CSharp
     fullTypeName: CheckForMovement
     methodName: SetScore
+  - assembly: Assembly-CSharp
+    fullTypeName: CoinBonus
+    methodName: SetCoins
   sceneClasses:
     Assets/Scenes/BeanBowling.unity:
     - Class: 1

@@ -2734,6 +2734,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_PlayerPrefs_GetString();
 		Register_UnityEngine_PlayerPrefs_GetString();
 
+		//System.Void UnityEngine.PlayerPrefs::DeleteKey(System.String)
+		void Register_UnityEngine_PlayerPrefs_DeleteKey();
+		Register_UnityEngine_PlayerPrefs_DeleteKey();
+
 	//End Registrations for type : UnityEngine.PlayerPrefs
 
 	//Start Registrations for type : UnityEngine.PolygonCollider2D

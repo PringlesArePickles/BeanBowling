@@ -18,7 +18,6 @@ public class Shop : MonoBehaviour
 
     [Header("Text")]
     public Text coinText;
-
     public Text rbText;
     public Text pbText;
     public Text lbText;
@@ -122,6 +121,7 @@ public class Shop : MonoBehaviour
     public void pintoBeansFunction()
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        pintoBeansOwned = PlayerPrefs.GetFloat("pintoBeansOwned");
 
         if (coinBonus.coins >= 100f && pintoBeansOwned != 1f)
         {
@@ -163,6 +163,7 @@ public class Shop : MonoBehaviour
     public void limaBeansFunction()
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        limaBeansOwned = PlayerPrefs.GetFloat("limaBeansOwned");
 
         if (coinBonus.coins >= 200f && limaBeansOwned != 1f)
         {
@@ -204,6 +205,7 @@ public class Shop : MonoBehaviour
     public void kidneyBeansFunction()
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        kidneyBeansOwned = PlayerPrefs.GetFloat("kidneyBeansOwned");
 
         if (coinBonus.coins >= 375 && kidneyBeansOwned != 1f)
         {
@@ -212,7 +214,7 @@ public class Shop : MonoBehaviour
 
             kidneyBeansOwned = 1f;
             PlayerPrefs.SetFloat("kidneyBeansOwned", kidneyBeansOwned);
-            coinBonus.coins -= 200f;
+            coinBonus.coins -= 375f;
             PlayerPrefs.SetFloat("coins", coinBonus.coins);
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
@@ -245,6 +247,7 @@ public class Shop : MonoBehaviour
     public void blackBeansFunction()
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        blackBeansOwned = PlayerPrefs.GetFloat("blackBeansOwned");
 
         if (coinBonus.coins >= 650f && blackBeansOwned != 1f)
         {
@@ -286,6 +289,7 @@ public class Shop : MonoBehaviour
     public void lentilsFunction()
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        lentilsOwned = PlayerPrefs.GetFloat("lentilsOwned");
 
         if (coinBonus.coins >= 975f && lentilsOwned != 1f)
         {
@@ -327,6 +331,7 @@ public class Shop : MonoBehaviour
     public void greenBeansFunction()
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        greenBeansOwned = PlayerPrefs.GetFloat("greenBeansOwned");
 
         if (coinBonus.coins >= 1250 && greenBeansOwned != 1f)
         {
@@ -368,6 +373,7 @@ public class Shop : MonoBehaviour
     public void garbanzoBeansFunction()
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        garbanzoBeansOwned = PlayerPrefs.GetFloat("garbanzoBeansOwned");
 
         if (coinBonus.coins >= 2000f && garbanzoBeansOwned != 1f)
         {
@@ -409,6 +415,7 @@ public class Shop : MonoBehaviour
     public void jellyBeansFunction()
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
+        jellyBeansOwned = PlayerPrefs.GetFloat("jellyBeansOwned");
 
         if (coinBonus.coins >= 5000f && jellyBeansOwned != 1f)
         {

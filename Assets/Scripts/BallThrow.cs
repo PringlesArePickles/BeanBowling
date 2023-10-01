@@ -65,13 +65,11 @@ public class BallThrow : MonoBehaviour
         if (ball.transform.position.x <= -4.5f)
         {
             canMoveLeft = false;
-            Debug.Log("barreir");
         }
         
         if (ball.transform.position.x >= 4.5f)
         {
             canMoveRight = false;
-            Debug.Log("barreir");
         }
         
         if (ball.transform.position.x > -4.5f && ball.transform.position.x < 4.5f)

@@ -73,8 +73,10 @@ public class CheckForMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        frames = PlayerPrefs.GetInt("frames");
+        PlayerPrefs.SetInt("frames", frames);
         scoreText.text = ("Total score: " + PlayerPrefs.GetFloat("score"));
-        frameText.text = ("Frame: " + PlayerPrefs.GetInt("frames"));
+        frameText.text = ("Frame: " + frames);
     }
 
     public void MovementCheck()
@@ -171,9 +173,19 @@ public class CheckForMovement : MonoBehaviour
 
     public void ResetPins()
     {
+        frames = PlayerPrefs.GetInt("frames");
         frames +=1 ;
         PlayerPrefs.SetInt("frames", frames);
-        //frames = PlayerPrefs.GetInt("frames");
+        frames = PlayerPrefs.GetInt("frames");
+
+        if (frames == 11)
+        {
+            Debug.Log("game over");
+            PlayerPrefs.DeleteKey("score");
+            PlayerPrefs.DeleteKey("frames");
+            PlayerPrefs.DeleteKey("throwPower");
+            SceneManager.LoadScene("GameOverScene");
+        }
 
         pin1.SetActive(true);
         pin1.transform.position = pin1Pos.position;
@@ -224,12 +236,6 @@ public class CheckForMovement : MonoBehaviour
         pin10.transform.position = pin10Pos.position;
         pin10.transform.rotation = pin10Pos.rotation;
         pin10rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
-
-        /*if (frames == 11)
-        {
-            coinbonus.coins += score;
-            SceneManager.LoadScene("BeanBowling");
-        }*/
         
         pinsKnockedDown = 0;
         ballsThrown = 0;
