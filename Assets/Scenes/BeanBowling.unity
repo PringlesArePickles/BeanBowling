@@ -563,7 +563,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90223860}
-  m_LocalRotation: {x: 0.09853762, y: 0.0000000042793964, z: -4.2374376e-10, w: 0.99513334}
+  m_LocalRotation: {x: 0.098537624, y: -0.000000004280818, z: 4.238845e-10, w: 0.99513334}
   m_LocalPosition: {x: 0, y: 4, z: -45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3207,7 +3207,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.09853762, y: 0.0000000042793964, z: -4.2374376e-10, w: 0.99513334}
+  m_LocalRotation: {x: 0.098537624, y: -0.000000004280818, z: 4.238845e-10, w: 0.99513334}
   m_LocalPosition: {x: 0, y: 4, z: -45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6481,6 +6481,26 @@ MonoBehaviour:
   throwPower: 0
   cfm: {fileID: 1281960919}
   powerNumberText: {fileID: 804231117}
+  pin1: {fileID: 2558994724553568437}
+  pin2: {fileID: 851375566}
+  pin3: {fileID: 586621524}
+  pin4: {fileID: 1362026586}
+  pin5: {fileID: 1610176597}
+  pin6: {fileID: 1871702750}
+  pin7: {fileID: 913881689}
+  pin8: {fileID: 1200175642}
+  pin9: {fileID: 1196355859}
+  pin10: {fileID: 116123808}
+  pin1rb: {fileID: 8965164588968577241}
+  pin2rb: {fileID: 851375570}
+  pin3rb: {fileID: 586621528}
+  pin4rb: {fileID: 1362026590}
+  pin5rb: {fileID: 1610176601}
+  pin6rb: {fileID: 1871702754}
+  pin7rb: {fileID: 913881693}
+  pin8rb: {fileID: 1200175646}
+  pin9rb: {fileID: 1196355863}
+  pin10rb: {fileID: 116123812}
 --- !u!114 &1927500109
 MonoBehaviour:
   m_ObjectHideFlags: 0

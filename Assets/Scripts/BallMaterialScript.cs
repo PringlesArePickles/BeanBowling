@@ -14,7 +14,6 @@ public class BallMaterialScript : MonoBehaviour
     public Material greenBeansMat;
     public Material garbanzoBeansMat;
     public Material jellyBeansMat;
-    //public Shop shop;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +24,7 @@ public class BallMaterialScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        shop.ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+        shop.ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial"); //get material, if no material is set, make it refried beans material
         
         if (shop.ballMaterial == "refriedBeansMaterial")
         {

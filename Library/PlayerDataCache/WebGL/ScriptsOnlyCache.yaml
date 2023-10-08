@@ -164,6 +164,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: CoinBonus
     methodName: SetCoins
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadScenes
+    methodName: LoadHomeScene
   sceneClasses:
     Assets/Scenes/BeanBowling.unity:
     - Class: 1
@@ -261,6 +264,63 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/GameOverScreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1550}
+    - Class: 114
+      Script: {instanceID: 2702}
+    - Class: 114
+      Script: {instanceID: 2938}
+    - Class: 114
+      Script: {instanceID: 3252}
+    - Class: 114
+      Script: {instanceID: 4040}
+    - Class: 114
+      Script: {instanceID: 5798}
+    - Class: 114
+      Script: {instanceID: 6154}
+    - Class: 114
+      Script: {instanceID: 6692}
+    - Class: 114
+      Script: {instanceID: 7068}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -985,7 +1045,7 @@ ScriptsOnlyBuild:
     className: CameraController
   - hash:
       serializedVersion: 2
-      Hash: a877b337f02657c6fda84c77ce153bb0
+      Hash: fc00c2ec4bbe4060007aa06b569ca1a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BallThrow
@@ -1738,4 +1798,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/HomeScreen.unity
   - Assets/Scenes/ShopScreen.unity
   - Assets/Scenes/BeanBowling.unity
+  - Assets/Scenes/GameOverScreen.unity
   playerPath: /Users/ry/Documents/GitHub/testing play fiels/beanbowlingplayfiles

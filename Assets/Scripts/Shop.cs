@@ -49,18 +49,29 @@ public class Shop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Score" + PlayerPrefs.GetFloat("score"));
-
         pintoBeansOwned = PlayerPrefs.GetFloat("pintoBeansOwned", 0);
         limaBeansOwned = PlayerPrefs.GetFloat("limaBeansOwned", 0);
         kidneyBeansOwned = PlayerPrefs.GetFloat("kidneyBeansOwned", 0);
+        blackBeansOwned = PlayerPrefs.GetFloat("blackBeansOwned", 0);
+        lentilsOwned = PlayerPrefs.GetFloat("lentilsOwned", 0);
+        greenBeansOwned = PlayerPrefs.GetFloat("greenBeansOwned", 0);
+        garbanzoBeansOwned = PlayerPrefs.GetFloat("garbanzoBeansOwned", 0);
+        jellyBeansOwned = PlayerPrefs.GetFloat("jellyBeansOwned", 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Coins in shop scene. Coins: " + PlayerPrefs.GetFloat("coins"));
         coinText.text = ("Coins: " + Mathf.Round(PlayerPrefs.GetFloat("coins")));
+
+        pintoBeansOwned = PlayerPrefs.GetFloat("pintoBeansOwned", 0);
+        limaBeansOwned = PlayerPrefs.GetFloat("limaBeansOwned", 0);
+        kidneyBeansOwned = PlayerPrefs.GetFloat("kidneyBeansOwned", 0);
+        blackBeansOwned = PlayerPrefs.GetFloat("blackBeansOwned", 0);
+        lentilsOwned = PlayerPrefs.GetFloat("lentilsOwned", 0);
+        greenBeansOwned = PlayerPrefs.GetFloat("greenBeansOwned", 0);
+        garbanzoBeansOwned = PlayerPrefs.GetFloat("garbanzoBeansOwned", 0);
+        jellyBeansOwned = PlayerPrefs.GetFloat("jellyBeansOwned", 0);
 
         if (pintoBeansOwned == 1f)
         {
@@ -107,6 +118,7 @@ public class Shop : MonoBehaviour
     {
         ballMaterial = "refriedBeansMaterial";
         PlayerPrefs.SetString("ballMaterial", ballMaterial);
+        ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
         refriedBeansText.color = new Color(0f, 1f, 0f);
         pintoBeansText.color = new Color(.5f, .5f, .5f);
@@ -127,6 +139,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "pintoBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             pintoBeansOwned = 1f;
             PlayerPrefs.SetFloat("pintoBeansOwned", pintoBeansOwned);
@@ -147,6 +160,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "pintoBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
             pintoBeansText.color = new Color(0f, 1f, 0f);
@@ -162,13 +176,20 @@ public class Shop : MonoBehaviour
 
     public void limaBeansFunction()
     {
+        Debug.Log("cliked");
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
         limaBeansOwned = PlayerPrefs.GetFloat("limaBeansOwned");
+        Debug.Log("lima beans owned " + limaBeansOwned);
+        
 
         if (coinBonus.coins >= 200f && limaBeansOwned != 1f)
         {
+            Debug.Log("limaBeans");
+
             ballMaterial = "limaBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+            
 
             limaBeansOwned = 1f;
             PlayerPrefs.SetFloat("limaBeansOwned", limaBeansOwned);
@@ -185,10 +206,13 @@ public class Shop : MonoBehaviour
             garbanzoBeansText.color = new Color(.5f, .5f, .5f);
             jellyBeansText.color = new Color(.5f, .5f, .5f);
         }
-        else if (PlayerPrefs.GetFloat("limaBeansOnwed") == 1f)
+        else if (PlayerPrefs.GetFloat("limaBeansOwned") == 1f)
         {
+            Debug.Log("limaBeans");
+
             ballMaterial = "limaBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
             pintoBeansText.color = new Color(.5f, .5f, .5f);
@@ -206,11 +230,13 @@ public class Shop : MonoBehaviour
     {
         coinBonus.coins = PlayerPrefs.GetFloat("coins");
         kidneyBeansOwned = PlayerPrefs.GetFloat("kidneyBeansOwned");
+        
 
         if (coinBonus.coins >= 375 && kidneyBeansOwned != 1f)
         {
             ballMaterial = "kidneyBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             kidneyBeansOwned = 1f;
             PlayerPrefs.SetFloat("kidneyBeansOwned", kidneyBeansOwned);
@@ -231,6 +257,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "kidneyBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
             pintoBeansText.color = new Color(.5f, .5f, .5f);
@@ -253,6 +280,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "blackBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             blackBeansOwned = 1f;
             PlayerPrefs.SetFloat("blackBeansOwned", blackBeansOwned);
@@ -273,6 +301,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "blackBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
             pintoBeansText.color = new Color(.5f, .5f, .5f);
@@ -295,6 +324,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "lentilsMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
             
             lentilsOwned = 1f;
             PlayerPrefs.SetFloat("lentilsOwned", lentilsOwned);
@@ -315,6 +345,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "lentilsMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
             pintoBeansText.color = new Color(.5f, .5f, .5f);
@@ -337,6 +368,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "greenBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             greenBeansOwned = 1f;
             PlayerPrefs.SetFloat("greenBeansOwned", greenBeansOwned);
@@ -357,6 +389,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "greenBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
             pintoBeansText.color = new Color(.5f, .5f, .5f);
@@ -379,6 +412,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "garbanzoBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             garbanzoBeansOwned = 1f;
             PlayerPrefs.SetFloat("garbanzoBeansOwned", garbanzoBeansOwned);
@@ -399,6 +433,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "garbanzoBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
             pintoBeansText.color = new Color(.5f, .5f, .5f);
@@ -421,6 +456,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "jellyBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             jellyBeansOwned = 1f;
             PlayerPrefs.SetFloat("jellyBeansOwned", jellyBeansOwned);
@@ -441,6 +477,7 @@ public class Shop : MonoBehaviour
         {
             ballMaterial = "jellyBeansMaterial";
             PlayerPrefs.SetString("ballMaterial", ballMaterial);
+            ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
 
             refriedBeansText.color = new Color(.5f, .5f, .5f);
             pintoBeansText.color = new Color(.5f, .5f, .5f);

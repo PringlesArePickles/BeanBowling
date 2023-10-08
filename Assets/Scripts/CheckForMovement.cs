@@ -245,6 +245,5 @@ public class CheckForMovement : MonoBehaviour
     {
         score = PlayerPrefs.GetFloat("score");
         PlayerPrefs.SetFloat("score", score);
-        Debug.Log("Score " + PlayerPrefs.GetFloat("score"));
     }
 }

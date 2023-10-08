@@ -32,6 +32,7 @@ public class RemoveConstraints : MonoBehaviour
 
     public void AddConstraints()
     {
+        Debug.Log("added constaints");
         m_rigidbody.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
     }
 

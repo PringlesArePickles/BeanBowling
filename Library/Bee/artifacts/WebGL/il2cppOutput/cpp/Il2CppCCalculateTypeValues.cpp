@@ -49798,6 +49798,46 @@ struct BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776  : public MonoBehavio
 	bool ___canMoveRight_14;
 	// UnityEngine.UI.Text BallThrow::powerNumberText
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___powerNumberText_15;
+	// UnityEngine.GameObject BallThrow::pin1
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin1_16;
+	// UnityEngine.GameObject BallThrow::pin2
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin2_17;
+	// UnityEngine.GameObject BallThrow::pin3
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin3_18;
+	// UnityEngine.GameObject BallThrow::pin4
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin4_19;
+	// UnityEngine.GameObject BallThrow::pin5
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin5_20;
+	// UnityEngine.GameObject BallThrow::pin6
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin6_21;
+	// UnityEngine.GameObject BallThrow::pin7
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin7_22;
+	// UnityEngine.GameObject BallThrow::pin8
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin8_23;
+	// UnityEngine.GameObject BallThrow::pin9
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin9_24;
+	// UnityEngine.GameObject BallThrow::pin10
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin10_25;
+	// UnityEngine.Rigidbody BallThrow::pin1rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin1rb_26;
+	// UnityEngine.Rigidbody BallThrow::pin2rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin2rb_27;
+	// UnityEngine.Rigidbody BallThrow::pin3rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin3rb_28;
+	// UnityEngine.Rigidbody BallThrow::pin4rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin4rb_29;
+	// UnityEngine.Rigidbody BallThrow::pin5rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin5rb_30;
+	// UnityEngine.Rigidbody BallThrow::pin6rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin6rb_31;
+	// UnityEngine.Rigidbody BallThrow::pin7rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin7rb_32;
+	// UnityEngine.Rigidbody BallThrow::pin8rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin8rb_33;
+	// UnityEngine.Rigidbody BallThrow::pin9rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin9rb_34;
+	// UnityEngine.Rigidbody BallThrow::pin10rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin10rb_35;
 };
 
 // UnityEngine.UIElements.BaseBoolField

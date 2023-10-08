@@ -423,8 +423,6 @@ struct TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E;
 struct TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31;
 // TMPro.TextMeshProUGUI
 struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
-// TMPro.Examples.TextMeshSpawner
-struct TextMeshSpawner_tB6905931E9BE4D7A2A2E37A51E221A7B462D75BB;
 // UnityEngine.Texture2D
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 // UnityEngine.TouchScreenKeyboard
@@ -554,6 +552,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD
 IL2CPP_EXTERN_C String_t* _stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3;
 IL2CPP_EXTERN_C String_t* _stringLiteral0109B92A9B76C2B501D84B1625A94BDAAAB69B3E;
 IL2CPP_EXTERN_C String_t* _stringLiteral0133981053AC767ED98F641B459173B5499F4EB0;
+IL2CPP_EXTERN_C String_t* _stringLiteral04D9DA66729C28B8B13D5592304D30A01BE89AC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral063C8C692C54189D0661A813F19E198FA4E98CE7;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A5B75A180F8485D63D34FF1F4EDF6699CD0E2E0;
 IL2CPP_EXTERN_C String_t* _stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1;
@@ -567,7 +566,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral216451B0B96E95A72109CC42B6C5D525882C74B8
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C8CE7834C2AD273F3F1F08A39DA889300271C85;
 IL2CPP_EXTERN_C String_t* _stringLiteral2EE7CB73B2CD4CE35964BBBDDB4FE05B9105FBEE;
-IL2CPP_EXTERN_C String_t* _stringLiteral336B029D04847DC4F36985E1B89D1A0B11D299A3;
 IL2CPP_EXTERN_C String_t* _stringLiteral3504063107EBD5CBDFED18D8E2111DF755B2CEB2;
 IL2CPP_EXTERN_C String_t* _stringLiteral3783D62DA544C4A10F6775DC60E5A763AA9BED1B;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0;
@@ -578,7 +576,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236
 IL2CPP_EXTERN_C String_t* _stringLiteral4E7AEA770013E94AC32E8056BCEDACF2D4FDE065;
 IL2CPP_EXTERN_C String_t* _stringLiteral5225EE496AAB278285733EDA00B46385A27F58CC;
 IL2CPP_EXTERN_C String_t* _stringLiteral55F097B2603C69F9353B2AE824F1FE43E6B46F87;
-IL2CPP_EXTERN_C String_t* _stringLiteral5A0D010563EAFA6C9073D35EB9EF83C988F91B75;
 IL2CPP_EXTERN_C String_t* _stringLiteral5B615C8D64F050A4B841840469BBCCA764121BFC;
 IL2CPP_EXTERN_C String_t* _stringLiteral5BB28A3922AEEE733BD2AFB6188E66688F4A30F9;
 IL2CPP_EXTERN_C String_t* _stringLiteral62966FB5B120DA8A3AA049C568673E9E7E90D47F;
@@ -588,16 +585,17 @@ IL2CPP_EXTERN_C String_t* _stringLiteral6C2508B36172D48DBF270B6BA3662BAEDD3D5669
 IL2CPP_EXTERN_C String_t* _stringLiteral6E56275B49E7B5650AFFA13CB352E97B4617FD8E;
 IL2CPP_EXTERN_C String_t* _stringLiteral6EC7E5496EC7C5D5F4863DBF65B60EDD9B894C89;
 IL2CPP_EXTERN_C String_t* _stringLiteral70C1383B066636CA8156E74C3686C2B1568B4A81;
+IL2CPP_EXTERN_C String_t* _stringLiteral70D6F671711E1316503DA8B6CE94E888577D5FA4;
 IL2CPP_EXTERN_C String_t* _stringLiteral71B680ABF9213B3E8FB888056C235C79CFE83314;
 IL2CPP_EXTERN_C String_t* _stringLiteral7320A25E93A052455CEDD02F8FF77463FAE1012B;
 IL2CPP_EXTERN_C String_t* _stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99;
 IL2CPP_EXTERN_C String_t* _stringLiteral75A94EE44309525CF46FB9C022ED6E9EFAC8B506;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72;
-IL2CPP_EXTERN_C String_t* _stringLiteral7E4D32A8E48E742D60E1BCE82D7F7D7AF528CFA7;
 IL2CPP_EXTERN_C String_t* _stringLiteral8309851347F7A59BF9F5F0572BAC493A09B8053C;
 IL2CPP_EXTERN_C String_t* _stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1;
 IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
 IL2CPP_EXTERN_C String_t* _stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7;
+IL2CPP_EXTERN_C String_t* _stringLiteral8C84039CE1C33016DF24C1941295CFDB1F1BEFA8;
 IL2CPP_EXTERN_C String_t* _stringLiteral8EC5BAC4F6A518ABD4B12E3D172F881253589260;
 IL2CPP_EXTERN_C String_t* _stringLiteral941499004C2A490330FC998EF1292A26E3838184;
 IL2CPP_EXTERN_C String_t* _stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62;
@@ -624,6 +622,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralCAF8804297181FF007CA835529DD4477CFD94A70
 IL2CPP_EXTERN_C String_t* _stringLiteralCED30D471F9ECB011896E4C24680A6982ECBCAFE;
 IL2CPP_EXTERN_C String_t* _stringLiteralD371FEA00B101AB2FB495A225FA5DA7018CDC09C;
 IL2CPP_EXTERN_C String_t* _stringLiteralD4CA3F7CB7FD1A342D9893CDAD1380F3EB0A65C8;
+IL2CPP_EXTERN_C String_t* _stringLiteralD56A680815196EE04C271CF1C1A5A73F86D120B1;
 IL2CPP_EXTERN_C String_t* _stringLiteralD579F97F4A33C344330AED1285CC5B545618BC19;
 IL2CPP_EXTERN_C String_t* _stringLiteralD5C57DC7D4BD061AF35D3AC42E264DFD0230DC7D;
 IL2CPP_EXTERN_C String_t* _stringLiteralD949CFCC149B19BB1FD26DD619A194C93CFC026A;
@@ -3764,6 +3763,46 @@ struct BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776  : public MonoBehavio
 	bool ___canMoveRight_14;
 	// UnityEngine.UI.Text BallThrow::powerNumberText
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___powerNumberText_15;
+	// UnityEngine.GameObject BallThrow::pin1
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin1_16;
+	// UnityEngine.GameObject BallThrow::pin2
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin2_17;
+	// UnityEngine.GameObject BallThrow::pin3
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin3_18;
+	// UnityEngine.GameObject BallThrow::pin4
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin4_19;
+	// UnityEngine.GameObject BallThrow::pin5
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin5_20;
+	// UnityEngine.GameObject BallThrow::pin6
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin6_21;
+	// UnityEngine.GameObject BallThrow::pin7
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin7_22;
+	// UnityEngine.GameObject BallThrow::pin8
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin8_23;
+	// UnityEngine.GameObject BallThrow::pin9
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin9_24;
+	// UnityEngine.GameObject BallThrow::pin10
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pin10_25;
+	// UnityEngine.Rigidbody BallThrow::pin1rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin1rb_26;
+	// UnityEngine.Rigidbody BallThrow::pin2rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin2rb_27;
+	// UnityEngine.Rigidbody BallThrow::pin3rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin3rb_28;
+	// UnityEngine.Rigidbody BallThrow::pin4rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin4rb_29;
+	// UnityEngine.Rigidbody BallThrow::pin5rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin5rb_30;
+	// UnityEngine.Rigidbody BallThrow::pin6rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin6rb_31;
+	// UnityEngine.Rigidbody BallThrow::pin7rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin7rb_32;
+	// UnityEngine.Rigidbody BallThrow::pin8rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin8rb_33;
+	// UnityEngine.Rigidbody BallThrow::pin9rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin9rb_34;
+	// UnityEngine.Rigidbody BallThrow::pin10rb
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___pin10rb_35;
 };
 
 // TMPro.Examples.Benchmark01
@@ -4260,19 +4299,6 @@ struct TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31_StaticF
 	WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* ___k_WaitForEndOfFrame_15;
 	// UnityEngine.WaitForSeconds[] TMPro.Examples.TextMeshProFloatingText::k_WaitForSecondsRandom
 	WaitForSecondsU5BU5D_t2A9038ECB6E643745AEF2AD9A4F7FFD3D272186E* ___k_WaitForSecondsRandom_16;
-};
-
-// TMPro.Examples.TextMeshSpawner
-struct TextMeshSpawner_tB6905931E9BE4D7A2A2E37A51E221A7B462D75BB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Int32 TMPro.Examples.TextMeshSpawner::SpawnType
-	int32_t ___SpawnType_4;
-	// System.Int32 TMPro.Examples.TextMeshSpawner::NumberOfNPC
-	int32_t ___NumberOfNPC_5;
-	// UnityEngine.Font TMPro.Examples.TextMeshSpawner::TheFont
-	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___TheFont_6;
-	// TMPro.Examples.TextMeshProFloatingText TMPro.Examples.TextMeshSpawner::floatingText_Script
-	TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31* ___floatingText_Script_7;
 };
 
 // UnityEngine.EventSystems.UIBehaviour
@@ -5856,8 +5882,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_AddForce_m264F2851A456AA18D4F04B21AF23814E61A39B75 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, float ___x0, float ___y1, float ___z2, int32_t ___mode3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::Invoke(System.String,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___methodName0, float ___time1, const RuntimeMethod* method) ;
-// System.Void RemoveConstraints::AddConstraints()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoveConstraints_AddConstraints_mD87F36E248982F6141286C9B877A69A81DAC7DCA (RemoveConstraints_t3E77733CD109E85A4212BCD4C514CF05F1EF83C5* __this, const RuntimeMethod* method) ;
 // System.Void CheckForMovement::MovementCheck()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckForMovement_MovementCheck_mC16353A8FCA89B77BC099C9AB23FAAAEC676C78D (CheckForMovement_t9E4DF0E12A47681A3BAD4B6F38DEB9FCB97F74AA* __this, const RuntimeMethod* method) ;
 // UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
@@ -5910,6 +5934,8 @@ inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetCompone
 {
 	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
+// System.Void RemoveConstraints::AddConstraints()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoveConstraints_AddConstraints_mD87F36E248982F6141286C9B877A69A81DAC7DCA (RemoveConstraints_t3E77733CD109E85A4212BCD4C514CF05F1EF83C5* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.PlayerPrefs::SetString(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256 (String_t* ___key0, String_t* ___value1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single)
@@ -6466,7 +6492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallMaterialScript_Update_m0229557933B69
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// shop.ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		// shop.ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial"); //get material, if no material is set, make it refried beans material
 		Shop_t8B1A82F6B39FDC982B3A8F8CC2226916FC9036E3* L_0 = __this->___shop_4;
 		String_t* L_1;
 		L_1 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
@@ -7025,45 +7051,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallThrow_ThrowBall_mCEC696D71E064855D72
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BallThrow_ResetBall_m729258F74C553B8B7C69B440178E8083C2F57B76 (BallThrow_tBC07D1003ACA9F6EB024E09D36DD1DEF21E3F776* __this, const RuntimeMethod* method) 
 {
 	{
-		// rc.AddConstraints(); //call the AddConstraints() function in all objects containing the script RemoveConstraints.cs
-		RemoveConstraints_t3E77733CD109E85A4212BCD4C514CF05F1EF83C5* L_0 = __this->___rc_11;
-		RemoveConstraints_AddConstraints_mD87F36E248982F6141286C9B877A69A81DAC7DCA(L_0, NULL);
-		// cfm.MovementCheck(); //call the MovementCheck() function in CheckForMovement.cs
-		CheckForMovement_t9E4DF0E12A47681A3BAD4B6F38DEB9FCB97F74AA* L_1 = __this->___cfm_10;
-		CheckForMovement_MovementCheck_mC16353A8FCA89B77BC099C9AB23FAAAEC676C78D(L_1, NULL);
-		// rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ; //stop ball from moving
-		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2 = __this->___rb_4;
+		// pin1rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___pin1rb_26;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_0, ((int32_t)126), NULL);
+		// pin2rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1 = __this->___pin2rb_27;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_1, ((int32_t)126), NULL);
+		// pin3rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2 = __this->___pin3rb_28;
 		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_2, ((int32_t)126), NULL);
+		// pin4rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___pin4rb_29;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_3, ((int32_t)126), NULL);
+		// pin5rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->___pin5rb_30;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_4, ((int32_t)126), NULL);
+		// pin6rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = __this->___pin6rb_31;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_5, ((int32_t)126), NULL);
+		// pin7rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_6 = __this->___pin7rb_32;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_6, ((int32_t)126), NULL);
+		// pin8rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = __this->___pin8rb_33;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_7, ((int32_t)126), NULL);
+		// pin9rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = __this->___pin9rb_34;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_8, ((int32_t)126), NULL);
+		// pin10rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_9 = __this->___pin10rb_35;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_9, ((int32_t)126), NULL);
+		// cfm.MovementCheck(); //call the MovementCheck() function in CheckForMovement.cs
+		CheckForMovement_t9E4DF0E12A47681A3BAD4B6F38DEB9FCB97F74AA* L_10 = __this->___cfm_10;
+		CheckForMovement_MovementCheck_mC16353A8FCA89B77BC099C9AB23FAAAEC676C78D(L_10, NULL);
+		// rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ; //stop ball from moving
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_11 = __this->___rb_4;
+		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_11, ((int32_t)126), NULL);
 		// transform.position = ballOrigin.position; //put ball in original position
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
-		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___ballOrigin_5;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
-		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_3, L_5, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___ballOrigin_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_12, L_14, NULL);
 		// transform.rotation = ballOrigin.rotation; //put ball in original rotation
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
-		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->___ballOrigin_5;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
-		L_8 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_7, NULL);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_6, L_8, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
+		L_15 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = __this->___ballOrigin_5;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_16, NULL);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_15, L_17, NULL);
 		// cam.transform.position = camOrigin.position; //put camera in original position
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___cam_7;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
-		L_10 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_9, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___camOrigin_6;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
-		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_12, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___cam_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
+		L_19 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_18, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = __this->___camOrigin_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_20, NULL);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_19, L_21, NULL);
 		// cam.transform.rotation = camOrigin.rotation; //put camera in original rotation
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___cam_7;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
-		L_14 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_13, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = __this->___camOrigin_6;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
-		L_16 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_15, NULL);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_14, L_16, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___cam_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
+		L_23 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_22, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = __this->___camOrigin_6;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_25;
+		L_25 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_24, NULL);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_23, L_25, NULL);
 		// canThrow = true; //ball can throw
 		__this->___canThrow_12 = (bool)1;
 		// canMoveLeft = true;
@@ -7947,12 +8000,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckForMovement_SetScore_m1D031903F77AB
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5A0D010563EAFA6C9073D35EB9EF83C988F91B75);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0E2DE04AE40B3B0493F0F846F34B279C6D44FE9);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
 	{
 		// score = PlayerPrefs.GetFloat("score");
 		float L_0;
@@ -7961,16 +8011,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckForMovement_SetScore_m1D031903F77AB
 		// PlayerPrefs.SetFloat("score", score);
 		float L_1 = __this->___score_28;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteralC0E2DE04AE40B3B0493F0F846F34B279C6D44FE9, L_1, NULL);
-		// Debug.Log("Score " + PlayerPrefs.GetFloat("score"));
-		float L_2;
-		L_2 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteralC0E2DE04AE40B3B0493F0F846F34B279C6D44FE9, NULL);
-		V_0 = L_2;
-		String_t* L_3;
-		L_3 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_0), NULL);
-		String_t* L_4;
-		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral5A0D010563EAFA6C9073D35EB9EF83C988F91B75, L_3, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
 		// }
 		return;
 	}
@@ -8483,7 +8523,17 @@ IL_003a:
 // System.Void RemoveConstraints::AddConstraints()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoveConstraints_AddConstraints_mD87F36E248982F6141286C9B877A69A81DAC7DCA (RemoveConstraints_t3E77733CD109E85A4212BCD4C514CF05F1EF83C5* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8C84039CE1C33016DF24C1941295CFDB1F1BEFA8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("added constaints");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8C84039CE1C33016DF24C1941295CFDB1F1BEFA8, NULL);
 		// m_rigidbody.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___m_rigidbody_4;
 		Rigidbody_set_constraints_mE81BF0DAEB980E320538231E092CA4663885A9A3(L_0, ((int32_t)126), NULL);
@@ -8524,38 +8574,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_Start_mF1084EC30E8CFE8BA2F37507C0E8
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral336B029D04847DC4F36985E1B89D1A0B11D299A3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral647CF964E899467458F1276DB801FD64F45542AB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0E2DE04AE40B3B0493F0F846F34B279C6D44FE9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
 	{
-		// Debug.Log("Score" + PlayerPrefs.GetFloat("score"));
-		float L_0;
-		L_0 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteralC0E2DE04AE40B3B0493F0F846F34B279C6D44FE9, NULL);
-		V_0 = L_0;
-		String_t* L_1;
-		L_1 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_0), NULL);
-		String_t* L_2;
-		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral336B029D04847DC4F36985E1B89D1A0B11D299A3, L_1, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
 		// pintoBeansOwned = PlayerPrefs.GetFloat("pintoBeansOwned", 0);
-		float L_3;
-		L_3 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99, (0.0f), NULL);
-		__this->___pintoBeansOwned_24 = L_3;
+		float L_0;
+		L_0 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99, (0.0f), NULL);
+		__this->___pintoBeansOwned_24 = L_0;
 		// limaBeansOwned = PlayerPrefs.GetFloat("limaBeansOwned", 0);
-		float L_4;
-		L_4 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1, (0.0f), NULL);
-		__this->___limaBeansOwned_25 = L_4;
+		float L_1;
+		L_1 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1, (0.0f), NULL);
+		__this->___limaBeansOwned_25 = L_1;
 		// kidneyBeansOwned = PlayerPrefs.GetFloat("kidneyBeansOwned", 0);
+		float L_2;
+		L_2 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82, (0.0f), NULL);
+		__this->___kidneyBeansOwned_26 = L_2;
+		// blackBeansOwned = PlayerPrefs.GetFloat("blackBeansOwned", 0);
+		float L_3;
+		L_3 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral647CF964E899467458F1276DB801FD64F45542AB, (0.0f), NULL);
+		__this->___blackBeansOwned_27 = L_3;
+		// lentilsOwned = PlayerPrefs.GetFloat("lentilsOwned", 0);
+		float L_4;
+		L_4 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261, (0.0f), NULL);
+		__this->___lentilsOwned_28 = L_4;
+		// greenBeansOwned = PlayerPrefs.GetFloat("greenBeansOwned", 0);
 		float L_5;
-		L_5 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82, (0.0f), NULL);
-		__this->___kidneyBeansOwned_26 = L_5;
+		L_5 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72, (0.0f), NULL);
+		__this->___greenBeansOwned_29 = L_5;
+		// garbanzoBeansOwned = PlayerPrefs.GetFloat("garbanzoBeansOwned", 0);
+		float L_6;
+		L_6 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1, (0.0f), NULL);
+		__this->___garbanzoBeansOwned_30 = L_6;
+		// jellyBeansOwned = PlayerPrefs.GetFloat("jellyBeansOwned", 0);
+		float L_7;
+		L_7 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40, (0.0f), NULL);
+		__this->___jellyBeansOwned_31 = L_7;
 		// }
 		return;
 	}
@@ -8566,8 +8627,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_Update_mE0B7030006E21777E86235E0CCB
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral647CF964E899467458F1276DB801FD64F45542AB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD949CFCC149B19BB1FD26DD619A194C93CFC026A);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -8585,125 +8654,157 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_Update_mE0B7030006E21777E86235E0CCB
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD949CFCC149B19BB1FD26DD619A194C93CFC026A, L_3, NULL);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_4);
+		// pintoBeansOwned = PlayerPrefs.GetFloat("pintoBeansOwned", 0);
+		float L_5;
+		L_5 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99, (0.0f), NULL);
+		__this->___pintoBeansOwned_24 = L_5;
+		// limaBeansOwned = PlayerPrefs.GetFloat("limaBeansOwned", 0);
+		float L_6;
+		L_6 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1, (0.0f), NULL);
+		__this->___limaBeansOwned_25 = L_6;
+		// kidneyBeansOwned = PlayerPrefs.GetFloat("kidneyBeansOwned", 0);
+		float L_7;
+		L_7 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82, (0.0f), NULL);
+		__this->___kidneyBeansOwned_26 = L_7;
+		// blackBeansOwned = PlayerPrefs.GetFloat("blackBeansOwned", 0);
+		float L_8;
+		L_8 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral647CF964E899467458F1276DB801FD64F45542AB, (0.0f), NULL);
+		__this->___blackBeansOwned_27 = L_8;
+		// lentilsOwned = PlayerPrefs.GetFloat("lentilsOwned", 0);
+		float L_9;
+		L_9 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261, (0.0f), NULL);
+		__this->___lentilsOwned_28 = L_9;
+		// greenBeansOwned = PlayerPrefs.GetFloat("greenBeansOwned", 0);
+		float L_10;
+		L_10 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72, (0.0f), NULL);
+		__this->___greenBeansOwned_29 = L_10;
+		// garbanzoBeansOwned = PlayerPrefs.GetFloat("garbanzoBeansOwned", 0);
+		float L_11;
+		L_11 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1, (0.0f), NULL);
+		__this->___garbanzoBeansOwned_30 = L_11;
+		// jellyBeansOwned = PlayerPrefs.GetFloat("jellyBeansOwned", 0);
+		float L_12;
+		L_12 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40, (0.0f), NULL);
+		__this->___jellyBeansOwned_31 = L_12;
 		// if (pintoBeansOwned == 1f)
-		float L_5 = __this->___pintoBeansOwned_24;
-		if ((!(((float)L_5) == ((float)(1.0f)))))
+		float L_13 = __this->___pintoBeansOwned_24;
+		if ((!(((float)L_13) == ((float)(1.0f)))))
 		{
-			goto IL_0049;
+			goto IL_00f1;
 		}
 	}
 	{
 		// pbText.text = "Owned";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___pbText_15;
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_6, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___pbText_15;
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_14, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
 	}
 
-IL_0049:
+IL_00f1:
 	{
 		// if (limaBeansOwned == 1f)
-		float L_7 = __this->___limaBeansOwned_25;
-		if ((!(((float)L_7) == ((float)(1.0f)))))
+		float L_15 = __this->___limaBeansOwned_25;
+		if ((!(((float)L_15) == ((float)(1.0f)))))
 		{
-			goto IL_0066;
+			goto IL_010e;
 		}
 	}
 	{
 		// lbText.text = "Owned";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___lbText_16;
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_8, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___lbText_16;
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_16, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
 	}
 
-IL_0066:
+IL_010e:
 	{
 		// if (kidneyBeansOwned == 1f)
-		float L_9 = __this->___kidneyBeansOwned_26;
-		if ((!(((float)L_9) == ((float)(1.0f)))))
+		float L_17 = __this->___kidneyBeansOwned_26;
+		if ((!(((float)L_17) == ((float)(1.0f)))))
 		{
-			goto IL_0083;
+			goto IL_012b;
 		}
 	}
 	{
 		// kbText.text = "Owned";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = __this->___kbText_17;
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_10, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___kbText_17;
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_18, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
 	}
 
-IL_0083:
+IL_012b:
 	{
 		// if (blackBeansOwned == 1f)
-		float L_11 = __this->___blackBeansOwned_27;
-		if ((!(((float)L_11) == ((float)(1.0f)))))
+		float L_19 = __this->___blackBeansOwned_27;
+		if ((!(((float)L_19) == ((float)(1.0f)))))
 		{
-			goto IL_00a0;
+			goto IL_0148;
 		}
 	}
 	{
 		// bbText.text = "Owned";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = __this->___bbText_18;
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_12, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___bbText_18;
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_20, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
 	}
 
-IL_00a0:
+IL_0148:
 	{
 		// if (lentilsOwned == 1f)
-		float L_13 = __this->___lentilsOwned_28;
-		if ((!(((float)L_13) == ((float)(1.0f)))))
+		float L_21 = __this->___lentilsOwned_28;
+		if ((!(((float)L_21) == ((float)(1.0f)))))
 		{
-			goto IL_00bd;
+			goto IL_0165;
 		}
 	}
 	{
 		// lText.text = "Owned";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___lText_19;
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_14, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___lText_19;
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_22, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
 	}
 
-IL_00bd:
+IL_0165:
 	{
 		// if (greenBeansOwned == 1f)
-		float L_15 = __this->___greenBeansOwned_29;
-		if ((!(((float)L_15) == ((float)(1.0f)))))
+		float L_23 = __this->___greenBeansOwned_29;
+		if ((!(((float)L_23) == ((float)(1.0f)))))
 		{
-			goto IL_00da;
+			goto IL_0182;
 		}
 	}
 	{
 		// greenbText.text = "Owned";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___greenbText_20;
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_16, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___greenbText_20;
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_24, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
 	}
 
-IL_00da:
+IL_0182:
 	{
 		// if (garbanzoBeansOwned == 1f)
-		float L_17 = __this->___garbanzoBeansOwned_30;
-		if ((!(((float)L_17) == ((float)(1.0f)))))
+		float L_25 = __this->___garbanzoBeansOwned_30;
+		if ((!(((float)L_25) == ((float)(1.0f)))))
 		{
-			goto IL_00f7;
+			goto IL_019f;
 		}
 	}
 	{
 		// garbanzobText.text = "Owned";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___garbanzobText_21;
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_18, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___garbanzobText_21;
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_26, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
 	}
 
-IL_00f7:
+IL_019f:
 	{
 		// if (jellyBeansOwned == 1f)
-		float L_19 = __this->___jellyBeansOwned_31;
-		if ((!(((float)L_19) == ((float)(1.0f)))))
+		float L_27 = __this->___jellyBeansOwned_31;
+		if ((!(((float)L_27) == ((float)(1.0f)))))
 		{
-			goto IL_0114;
+			goto IL_01bc;
 		}
 	}
 	{
 		// jbText.text = "Owned";
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___jbText_22;
-		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_20, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___jbText_22;
+		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_28, _stringLiteral408E7650848F08974C16653E1DCFF782BEA806A8);
 	}
 
-IL_0114:
+IL_01bc:
 	{
 		// }
 		return;
@@ -8726,60 +8827,65 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_refriedBeansFunction_mF7C5043EAF240
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
 		String_t* L_0 = __this->___ballMaterial_32;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_0, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_1;
+		L_1 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_1);
 		// refriedBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
-		memset((&L_2), 0, sizeof(L_2));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_2), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_1, L_2);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_3), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_2, L_3);
 		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
-		memset((&L_4), 0, sizeof(L_4));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_4), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_3, L_4);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_5), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_4, L_5);
 		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
-		memset((&L_6), 0, sizeof(L_6));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_6), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_5, L_6);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_7), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_6, L_7);
 		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8;
-		memset((&L_8), 0, sizeof(L_8));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_8), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_7, L_8);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_9), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_8, L_9);
 		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
-		memset((&L_10), 0, sizeof(L_10));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_10), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_9, L_10);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_11), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_10, L_11);
 		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12;
-		memset((&L_12), 0, sizeof(L_12));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_12), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_11, L_12);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13;
+		memset((&L_13), 0, sizeof(L_13));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_13), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_12, L_13);
 		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_14, L_15);
 		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_17), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_16, L_17);
 		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_19), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_18, L_19);
 		// }
 		return;
 	}
@@ -8792,6 +8898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_pintoBeansFunction_m40F53F90B3AE5A7
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8309851347F7A59BF9F5F0572BAC493A09B8053C);
 		s_Il2CppMethodInitialized = true;
@@ -8811,14 +8918,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_pintoBeansFunction_m40F53F90B3AE5A7
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(100.0f)))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
 		float L_5 = __this->___pintoBeansOwned_24;
 		if ((((float)L_5) == ((float)(1.0f))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
@@ -8828,85 +8935,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_pintoBeansFunction_m40F53F90B3AE5A7
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
 		String_t* L_6 = __this->___ballMaterial_32;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_6, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_7;
+		L_7 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_7);
 		// pintoBeansOwned = 1f;
 		__this->___pintoBeansOwned_24 = (1.0f);
 		// PlayerPrefs.SetFloat("pintoBeansOwned", pintoBeansOwned);
-		float L_7 = __this->___pintoBeansOwned_24;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99, L_7, NULL);
+		float L_8 = __this->___pintoBeansOwned_24;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99, L_8, NULL);
 		// coinBonus.coins -= 100f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = __this->___coinBonus_23;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = L_8;
-		float L_10 = L_9->___coins_5;
-		L_9->___coins_5 = ((float)il2cpp_codegen_subtract(L_10, (100.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_23;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_10 = L_9;
+		float L_11 = L_10->___coins_5;
+		L_10->___coins_5 = ((float)il2cpp_codegen_subtract(L_11, (100.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_11 = __this->___coinBonus_23;
-		float L_12 = L_11->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_12, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_12 = __this->___coinBonus_23;
+		float L_13 = L_12->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_13, NULL);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_14, L_15);
 		// pintoBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_17), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_16, L_17);
 		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_19), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_18, L_19);
 		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
-		memset((&L_20), 0, sizeof(L_20));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_20), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_19, L_20);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_21), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_20, L_21);
 		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_21, L_22);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_23), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_22, L_23);
 		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
-		memset((&L_24), 0, sizeof(L_24));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_24), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_23, L_24);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_25), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_24, L_25);
 		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_27), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_26, L_27);
 		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_28), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_29), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_28, L_29);
 		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
-		memset((&L_30), 0, sizeof(L_30));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_30), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_31), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_30, L_31);
 		return;
 	}
 
-IL_01c4:
+IL_01d9:
 	{
 		// else if (PlayerPrefs.GetFloat("pintoBeansOwned") == 1f)
-		float L_31;
-		L_31 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99, NULL);
-		if ((!(((float)L_31) == ((float)(1.0f)))))
+		float L_32;
+		L_32 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral74E59459A2787D8BEBAC05F579BBB838A65FEA99, NULL);
+		if ((!(((float)L_32) == ((float)(1.0f)))))
 		{
-			goto IL_030a;
+			goto IL_0334;
 		}
 	}
 	{
@@ -8914,65 +9026,70 @@ IL_01c4:
 		__this->___ballMaterial_32 = _stringLiteral8309851347F7A59BF9F5F0572BAC493A09B8053C;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteral8309851347F7A59BF9F5F0572BAC493A09B8053C);
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_32 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_32, NULL);
+		String_t* L_33 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_33, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_34;
+		L_34 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_34);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
-		memset((&L_34), 0, sizeof(L_34));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_34), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_33, L_34);
-		// pintoBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___pintoBeansText_5;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___refriedBeansText_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		memset((&L_36), 0, sizeof(L_36));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_35, L_36);
-		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___limaBeansText_6;
+		// pintoBeansText.color = new Color(0f, 1f, 0f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___pintoBeansText_5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
 		memset((&L_38), 0, sizeof(L_38));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_37, L_38);
-		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___kidneyBeansText_7;
+		// limaBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___limaBeansText_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
 		memset((&L_40), 0, sizeof(L_40));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_39, L_40);
-		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___blackBeansText_8;
+		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___kidneyBeansText_7;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
 		memset((&L_42), 0, sizeof(L_42));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_41, L_42);
-		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___lentilsText_9;
+		// blackBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___blackBeansText_8;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
 		memset((&L_44), 0, sizeof(L_44));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_43, L_44);
-		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___greenBeansText_10;
+		// lentilsText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___lentilsText_9;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		memset((&L_46), 0, sizeof(L_46));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_45, L_46);
-		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___garbanzoBeansText_11;
+		// greenBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___greenBeansText_10;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
 		memset((&L_48), 0, sizeof(L_48));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_47, L_48);
-		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___jellyBeansText_12;
+		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___garbanzoBeansText_11;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
 		memset((&L_50), 0, sizeof(L_50));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_49, L_50);
+		// jellyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_52;
+		memset((&L_52), 0, sizeof(L_52));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_52), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_51, L_52);
 	}
 
-IL_030a:
+IL_0334:
 	{
 		// }
 		return;
@@ -8984,14 +9101,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_limaBeansFunction_mFF5B034D757B73D8
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral04D9DA66729C28B8B13D5592304D30A01BE89AC7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BB28A3922AEEE733BD2AFB6188E66688F4A30F9);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7E4D32A8E48E742D60E1BCE82D7F7D7AF528CFA7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70D6F671711E1316503DA8B6CE94E888577D5FA4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD56A680815196EE04C271CF1C1A5A73F86D120B1);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// Debug.Log("cliked");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralD56A680815196EE04C271CF1C1A5A73F86D120B1, NULL);
 		// coinBonus.coins = PlayerPrefs.GetFloat("coins");
 		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_0 = __this->___coinBonus_23;
 		float L_1;
@@ -9001,173 +9125,196 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_limaBeansFunction_mFF5B034D757B73D8
 		float L_2;
 		L_2 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1, NULL);
 		__this->___limaBeansOwned_25 = L_2;
+		// Debug.Log("lima beans owned " + limaBeansOwned);
+		float* L_3 = (&__this->___limaBeansOwned_25);
+		String_t* L_4;
+		L_4 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972(L_3, NULL);
+		String_t* L_5;
+		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral70D6F671711E1316503DA8B6CE94E888577D5FA4, L_4, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
 		// if (coinBonus.coins >= 200f && limaBeansOwned != 1f)
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_3 = __this->___coinBonus_23;
-		float L_4 = L_3->___coins_5;
-		if ((!(((float)L_4) >= ((float)(200.0f)))))
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_6 = __this->___coinBonus_23;
+		float L_7 = L_6->___coins_5;
+		if ((!(((float)L_7) >= ((float)(200.0f)))))
 		{
-			goto IL_01c4;
+			goto IL_0207;
 		}
 	}
 	{
-		float L_5 = __this->___limaBeansOwned_25;
-		if ((((float)L_5) == ((float)(1.0f))))
+		float L_8 = __this->___limaBeansOwned_25;
+		if ((((float)L_8) == ((float)(1.0f))))
 		{
-			goto IL_01c4;
+			goto IL_0207;
 		}
 	}
 	{
+		// Debug.Log("limaBeans");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral04D9DA66729C28B8B13D5592304D30A01BE89AC7, NULL);
 		// ballMaterial = "limaBeansMaterial";
 		__this->___ballMaterial_32 = _stringLiteral5BB28A3922AEEE733BD2AFB6188E66688F4A30F9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteral5BB28A3922AEEE733BD2AFB6188E66688F4A30F9);
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_6 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_6, NULL);
+		String_t* L_9 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_9, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_10;
+		L_10 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_10);
 		// limaBeansOwned = 1f;
 		__this->___limaBeansOwned_25 = (1.0f);
 		// PlayerPrefs.SetFloat("limaBeansOwned", limaBeansOwned);
-		float L_7 = __this->___limaBeansOwned_25;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1, L_7, NULL);
+		float L_11 = __this->___limaBeansOwned_25;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1, L_11, NULL);
 		// coinBonus.coins -= 200f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = __this->___coinBonus_23;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = L_8;
-		float L_10 = L_9->___coins_5;
-		L_9->___coins_5 = ((float)il2cpp_codegen_subtract(L_10, (200.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_12 = __this->___coinBonus_23;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_13 = L_12;
+		float L_14 = L_13->___coins_5;
+		L_13->___coins_5 = ((float)il2cpp_codegen_subtract(L_14, (200.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_11 = __this->___coinBonus_23;
-		float L_12 = L_11->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_12, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_15 = __this->___coinBonus_23;
+		float L_16 = L_15->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_16, NULL);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
-		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
-		// limaBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___limaBeansText_6;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___refriedBeansText_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
 		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
-		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___kidneyBeansText_7;
+		// pintoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___pintoBeansText_5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_20), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_19, L_20);
-		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___blackBeansText_8;
+		// limaBeansText.color = new Color(0f, 1f, 0f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___limaBeansText_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
 		memset((&L_22), 0, sizeof(L_22));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_21, L_22);
-		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___lentilsText_9;
+		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___kidneyBeansText_7;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
 		memset((&L_24), 0, sizeof(L_24));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_24), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_23, L_24);
-		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___greenBeansText_10;
+		// blackBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___blackBeansText_8;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
 		memset((&L_26), 0, sizeof(L_26));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
-		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___garbanzoBeansText_11;
+		// lentilsText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___lentilsText_9;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
 		memset((&L_28), 0, sizeof(L_28));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_28), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
-		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___jellyBeansText_12;
+		// greenBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___greenBeansText_10;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
 		memset((&L_30), 0, sizeof(L_30));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_30), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
-		return;
-	}
-
-IL_01c4:
-	{
-		// else if (PlayerPrefs.GetFloat("limaBeansOnwed") == 1f)
-		float L_31;
-		L_31 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral7E4D32A8E48E742D60E1BCE82D7F7D7AF528CFA7, NULL);
-		if ((!(((float)L_31) == ((float)(1.0f)))))
-		{
-			goto IL_030a;
-		}
-	}
-	{
-		// ballMaterial = "limaBeansMaterial";
-		__this->___ballMaterial_32 = _stringLiteral5BB28A3922AEEE733BD2AFB6188E66688F4A30F9;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteral5BB28A3922AEEE733BD2AFB6188E66688F4A30F9);
-		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_32 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_32, NULL);
-		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___refriedBeansText_4;
+		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_31 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_32), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_31, L_32);
+		// jellyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___jellyBeansText_12;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_34), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_33, L_34);
-		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
-		memset((&L_36), 0, sizeof(L_36));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_35, L_36);
-		// limaBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
-		memset((&L_38), 0, sizeof(L_38));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_37, L_38);
-		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
-		memset((&L_40), 0, sizeof(L_40));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_39, L_40);
-		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
-		memset((&L_42), 0, sizeof(L_42));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_41, L_42);
-		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
-		memset((&L_44), 0, sizeof(L_44));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_43, L_44);
-		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
-		memset((&L_46), 0, sizeof(L_46));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_45, L_46);
-		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
-		memset((&L_48), 0, sizeof(L_48));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_47, L_48);
-		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
-		memset((&L_50), 0, sizeof(L_50));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_49, L_50);
+		return;
 	}
 
-IL_030a:
+IL_0207:
+	{
+		// else if (PlayerPrefs.GetFloat("limaBeansOwned") == 1f)
+		float L_35;
+		L_35 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral0CAC0C1779A12A00C3BDE7456208A5FE851917D1, NULL);
+		if ((!(((float)L_35) == ((float)(1.0f)))))
+		{
+			goto IL_036c;
+		}
+	}
+	{
+		// Debug.Log("limaBeans");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral04D9DA66729C28B8B13D5592304D30A01BE89AC7, NULL);
+		// ballMaterial = "limaBeansMaterial";
+		__this->___ballMaterial_32 = _stringLiteral5BB28A3922AEEE733BD2AFB6188E66688F4A30F9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteral5BB28A3922AEEE733BD2AFB6188E66688F4A30F9);
+		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
+		String_t* L_36 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_36, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_37;
+		L_37 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_37;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_37);
+		// refriedBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_38 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_39;
+		memset((&L_39), 0, sizeof(L_39));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_39), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_38, L_39);
+		// pintoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_40 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_41;
+		memset((&L_41), 0, sizeof(L_41));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_41), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_40, L_41);
+		// limaBeansText.color = new Color(0f, 1f, 0f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_42 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_43;
+		memset((&L_43), 0, sizeof(L_43));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_43), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_42, L_43);
+		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_44 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_45;
+		memset((&L_45), 0, sizeof(L_45));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_45), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_44, L_45);
+		// blackBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_46 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_47;
+		memset((&L_47), 0, sizeof(L_47));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_47), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_46, L_47);
+		// lentilsText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_48 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_49;
+		memset((&L_49), 0, sizeof(L_49));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_49), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_48, L_49);
+		// greenBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_50 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_51;
+		memset((&L_51), 0, sizeof(L_51));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_51), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_50, L_51);
+		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_52 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_53;
+		memset((&L_53), 0, sizeof(L_53));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_53), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_52, L_53);
+		// jellyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_54 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_55;
+		memset((&L_55), 0, sizeof(L_55));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_55), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_54, L_55);
+	}
+
+IL_036c:
 	{
 		// }
 		return;
@@ -9181,6 +9328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_kidneyBeansFunction_m906A1C25A025A0
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6EC7E5496EC7C5D5F4863DBF65B60EDD9B894C89);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82);
 		s_Il2CppMethodInitialized = true;
@@ -9200,14 +9348,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_kidneyBeansFunction_m906A1C25A025A0
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(375.0f)))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
 		float L_5 = __this->___kidneyBeansOwned_26;
 		if ((((float)L_5) == ((float)(1.0f))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
@@ -9217,85 +9365,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_kidneyBeansFunction_m906A1C25A025A0
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
 		String_t* L_6 = __this->___ballMaterial_32;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_6, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_7;
+		L_7 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_7);
 		// kidneyBeansOwned = 1f;
 		__this->___kidneyBeansOwned_26 = (1.0f);
 		// PlayerPrefs.SetFloat("kidneyBeansOwned", kidneyBeansOwned);
-		float L_7 = __this->___kidneyBeansOwned_26;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82, L_7, NULL);
+		float L_8 = __this->___kidneyBeansOwned_26;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82, L_8, NULL);
 		// coinBonus.coins -= 375f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = __this->___coinBonus_23;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = L_8;
-		float L_10 = L_9->___coins_5;
-		L_9->___coins_5 = ((float)il2cpp_codegen_subtract(L_10, (375.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_23;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_10 = L_9;
+		float L_11 = L_10->___coins_5;
+		L_10->___coins_5 = ((float)il2cpp_codegen_subtract(L_11, (375.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_11 = __this->___coinBonus_23;
-		float L_12 = L_11->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_12, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_12 = __this->___coinBonus_23;
+		float L_13 = L_12->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_13, NULL);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_14, L_15);
 		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_17), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_16, L_17);
 		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_19), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_18, L_19);
 		// kidneyBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
-		memset((&L_20), 0, sizeof(L_20));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_20), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_19, L_20);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_21), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_20, L_21);
 		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_21, L_22);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_23), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_22, L_23);
 		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
-		memset((&L_24), 0, sizeof(L_24));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_24), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_23, L_24);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_25), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_24, L_25);
 		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_27), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_26, L_27);
 		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_28), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_29), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_28, L_29);
 		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
-		memset((&L_30), 0, sizeof(L_30));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_30), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_31), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_30, L_31);
 		return;
 	}
 
-IL_01c4:
+IL_01d9:
 	{
 		// else if (PlayerPrefs.GetFloat("kidneyBeansOwned") == 1f)
-		float L_31;
-		L_31 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82, NULL);
-		if ((!(((float)L_31) == ((float)(1.0f)))))
+		float L_32;
+		L_32 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteralA535014977B15FAA42167395DEE90F2855EC6E82, NULL);
+		if ((!(((float)L_32) == ((float)(1.0f)))))
 		{
-			goto IL_030a;
+			goto IL_0334;
 		}
 	}
 	{
@@ -9303,65 +9456,70 @@ IL_01c4:
 		__this->___ballMaterial_32 = _stringLiteral6EC7E5496EC7C5D5F4863DBF65B60EDD9B894C89;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteral6EC7E5496EC7C5D5F4863DBF65B60EDD9B894C89);
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_32 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_32, NULL);
+		String_t* L_33 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_33, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_34;
+		L_34 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_34);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
-		memset((&L_34), 0, sizeof(L_34));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_34), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_33, L_34);
-		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___pintoBeansText_5;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___refriedBeansText_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		memset((&L_36), 0, sizeof(L_36));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_35, L_36);
-		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___limaBeansText_6;
+		// pintoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___pintoBeansText_5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
 		memset((&L_38), 0, sizeof(L_38));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_37, L_38);
-		// kidneyBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___kidneyBeansText_7;
+		// limaBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___limaBeansText_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
 		memset((&L_40), 0, sizeof(L_40));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_39, L_40);
-		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___blackBeansText_8;
+		// kidneyBeansText.color = new Color(0f, 1f, 0f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___kidneyBeansText_7;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
 		memset((&L_42), 0, sizeof(L_42));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_41, L_42);
-		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___lentilsText_9;
+		// blackBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___blackBeansText_8;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
 		memset((&L_44), 0, sizeof(L_44));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_43, L_44);
-		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___greenBeansText_10;
+		// lentilsText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___lentilsText_9;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		memset((&L_46), 0, sizeof(L_46));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_45, L_46);
-		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___garbanzoBeansText_11;
+		// greenBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___greenBeansText_10;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
 		memset((&L_48), 0, sizeof(L_48));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_47, L_48);
-		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___jellyBeansText_12;
+		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___garbanzoBeansText_11;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
 		memset((&L_50), 0, sizeof(L_50));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_49, L_50);
+		// jellyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_52;
+		memset((&L_52), 0, sizeof(L_52));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_52), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_51, L_52);
 	}
 
-IL_030a:
+IL_0334:
 	{
 		// }
 		return;
@@ -9375,6 +9533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_blackBeansFunction_m292C614FEE2A2A0
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral647CF964E899467458F1276DB801FD64F45542AB);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC0FA1D54FB8247E095879B46A352565A636AFC03);
 		s_Il2CppMethodInitialized = true;
@@ -9394,14 +9553,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_blackBeansFunction_m292C614FEE2A2A0
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(650.0f)))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
 		float L_5 = __this->___blackBeansOwned_27;
 		if ((((float)L_5) == ((float)(1.0f))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
@@ -9411,85 +9570,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_blackBeansFunction_m292C614FEE2A2A0
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
 		String_t* L_6 = __this->___ballMaterial_32;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_6, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_7;
+		L_7 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_7);
 		// blackBeansOwned = 1f;
 		__this->___blackBeansOwned_27 = (1.0f);
 		// PlayerPrefs.SetFloat("blackBeansOwned", blackBeansOwned);
-		float L_7 = __this->___blackBeansOwned_27;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral647CF964E899467458F1276DB801FD64F45542AB, L_7, NULL);
+		float L_8 = __this->___blackBeansOwned_27;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral647CF964E899467458F1276DB801FD64F45542AB, L_8, NULL);
 		// coinBonus.coins -= 650f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = __this->___coinBonus_23;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = L_8;
-		float L_10 = L_9->___coins_5;
-		L_9->___coins_5 = ((float)il2cpp_codegen_subtract(L_10, (650.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_23;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_10 = L_9;
+		float L_11 = L_10->___coins_5;
+		L_10->___coins_5 = ((float)il2cpp_codegen_subtract(L_11, (650.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_11 = __this->___coinBonus_23;
-		float L_12 = L_11->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_12, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_12 = __this->___coinBonus_23;
+		float L_13 = L_12->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_13, NULL);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_14, L_15);
 		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_17), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_16, L_17);
 		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_19), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_18, L_19);
 		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
-		memset((&L_20), 0, sizeof(L_20));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_20), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_19, L_20);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_21), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_20, L_21);
 		// blackBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_21, L_22);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_23), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_22, L_23);
 		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
-		memset((&L_24), 0, sizeof(L_24));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_24), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_23, L_24);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_25), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_24, L_25);
 		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_27), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_26, L_27);
 		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_28), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_29), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_28, L_29);
 		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
-		memset((&L_30), 0, sizeof(L_30));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_30), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_31), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_30, L_31);
 		return;
 	}
 
-IL_01c4:
+IL_01d9:
 	{
 		// else if (PlayerPrefs.GetFloat("blackBeansOwned") == 1f)
-		float L_31;
-		L_31 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral647CF964E899467458F1276DB801FD64F45542AB, NULL);
-		if ((!(((float)L_31) == ((float)(1.0f)))))
+		float L_32;
+		L_32 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral647CF964E899467458F1276DB801FD64F45542AB, NULL);
+		if ((!(((float)L_32) == ((float)(1.0f)))))
 		{
-			goto IL_030a;
+			goto IL_0334;
 		}
 	}
 	{
@@ -9497,65 +9661,70 @@ IL_01c4:
 		__this->___ballMaterial_32 = _stringLiteralC0FA1D54FB8247E095879B46A352565A636AFC03;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteralC0FA1D54FB8247E095879B46A352565A636AFC03);
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_32 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_32, NULL);
+		String_t* L_33 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_33, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_34;
+		L_34 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_34);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
-		memset((&L_34), 0, sizeof(L_34));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_34), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_33, L_34);
-		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___pintoBeansText_5;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___refriedBeansText_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		memset((&L_36), 0, sizeof(L_36));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_35, L_36);
-		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___limaBeansText_6;
+		// pintoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___pintoBeansText_5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
 		memset((&L_38), 0, sizeof(L_38));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_37, L_38);
-		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___kidneyBeansText_7;
+		// limaBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___limaBeansText_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
 		memset((&L_40), 0, sizeof(L_40));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_39, L_40);
-		// blackBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___blackBeansText_8;
+		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___kidneyBeansText_7;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
 		memset((&L_42), 0, sizeof(L_42));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_41, L_42);
-		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___lentilsText_9;
+		// blackBeansText.color = new Color(0f, 1f, 0f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___blackBeansText_8;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
 		memset((&L_44), 0, sizeof(L_44));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_43, L_44);
-		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___greenBeansText_10;
+		// lentilsText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___lentilsText_9;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		memset((&L_46), 0, sizeof(L_46));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_45, L_46);
-		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___garbanzoBeansText_11;
+		// greenBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___greenBeansText_10;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
 		memset((&L_48), 0, sizeof(L_48));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_47, L_48);
-		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___jellyBeansText_12;
+		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___garbanzoBeansText_11;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
 		memset((&L_50), 0, sizeof(L_50));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_49, L_50);
+		// jellyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_52;
+		memset((&L_52), 0, sizeof(L_52));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_52), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_51, L_52);
 	}
 
-IL_030a:
+IL_0334:
 	{
 		// }
 		return;
@@ -9569,6 +9738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_lentilsFunction_mEDF074E8ECE8C15BDE
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6C2508B36172D48DBF270B6BA3662BAEDD3D5669);
 		s_Il2CppMethodInitialized = true;
@@ -9588,14 +9758,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_lentilsFunction_mEDF074E8ECE8C15BDE
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(975.0f)))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
 		float L_5 = __this->___lentilsOwned_28;
 		if ((((float)L_5) == ((float)(1.0f))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
@@ -9605,85 +9775,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_lentilsFunction_mEDF074E8ECE8C15BDE
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
 		String_t* L_6 = __this->___ballMaterial_32;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_6, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_7;
+		L_7 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_7);
 		// lentilsOwned = 1f;
 		__this->___lentilsOwned_28 = (1.0f);
 		// PlayerPrefs.SetFloat("lentilsOwned", lentilsOwned);
-		float L_7 = __this->___lentilsOwned_28;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261, L_7, NULL);
+		float L_8 = __this->___lentilsOwned_28;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261, L_8, NULL);
 		// coinBonus.coins -= 975f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = __this->___coinBonus_23;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = L_8;
-		float L_10 = L_9->___coins_5;
-		L_9->___coins_5 = ((float)il2cpp_codegen_subtract(L_10, (975.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_23;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_10 = L_9;
+		float L_11 = L_10->___coins_5;
+		L_10->___coins_5 = ((float)il2cpp_codegen_subtract(L_11, (975.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_11 = __this->___coinBonus_23;
-		float L_12 = L_11->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_12, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_12 = __this->___coinBonus_23;
+		float L_13 = L_12->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_13, NULL);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_14, L_15);
 		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_17), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_16, L_17);
 		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_19), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_18, L_19);
 		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
-		memset((&L_20), 0, sizeof(L_20));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_20), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_19, L_20);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_21), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_20, L_21);
 		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_21, L_22);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_23), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_22, L_23);
 		// lentilsText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
-		memset((&L_24), 0, sizeof(L_24));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_24), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_23, L_24);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_25), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_24, L_25);
 		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_27), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_26, L_27);
 		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_28), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_29), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_28, L_29);
 		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
-		memset((&L_30), 0, sizeof(L_30));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_30), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_31), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_30, L_31);
 		return;
 	}
 
-IL_01c4:
+IL_01d9:
 	{
 		// else if (PlayerPrefs.GetFloat("lentilsOwned") == 1f)
-		float L_31;
-		L_31 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261, NULL);
-		if ((!(((float)L_31) == ((float)(1.0f)))))
+		float L_32;
+		L_32 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral663A027C19E5D8BB931901EA1064BECC127C0261, NULL);
+		if ((!(((float)L_32) == ((float)(1.0f)))))
 		{
-			goto IL_030a;
+			goto IL_0334;
 		}
 	}
 	{
@@ -9691,65 +9866,70 @@ IL_01c4:
 		__this->___ballMaterial_32 = _stringLiteral6C2508B36172D48DBF270B6BA3662BAEDD3D5669;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteral6C2508B36172D48DBF270B6BA3662BAEDD3D5669);
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_32 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_32, NULL);
+		String_t* L_33 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_33, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_34;
+		L_34 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_34);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
-		memset((&L_34), 0, sizeof(L_34));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_34), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_33, L_34);
-		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___pintoBeansText_5;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___refriedBeansText_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		memset((&L_36), 0, sizeof(L_36));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_35, L_36);
-		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___limaBeansText_6;
+		// pintoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___pintoBeansText_5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
 		memset((&L_38), 0, sizeof(L_38));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_37, L_38);
-		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___kidneyBeansText_7;
+		// limaBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___limaBeansText_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
 		memset((&L_40), 0, sizeof(L_40));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_39, L_40);
-		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___blackBeansText_8;
+		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___kidneyBeansText_7;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
 		memset((&L_42), 0, sizeof(L_42));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_41, L_42);
-		// lentilsText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___lentilsText_9;
+		// blackBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___blackBeansText_8;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
 		memset((&L_44), 0, sizeof(L_44));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_43, L_44);
-		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___greenBeansText_10;
+		// lentilsText.color = new Color(0f, 1f, 0f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___lentilsText_9;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		memset((&L_46), 0, sizeof(L_46));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_45, L_46);
-		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___garbanzoBeansText_11;
+		// greenBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___greenBeansText_10;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
 		memset((&L_48), 0, sizeof(L_48));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_47, L_48);
-		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___jellyBeansText_12;
+		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___garbanzoBeansText_11;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
 		memset((&L_50), 0, sizeof(L_50));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_49, L_50);
+		// jellyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_52;
+		memset((&L_52), 0, sizeof(L_52));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_52), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_51, L_52);
 	}
 
-IL_030a:
+IL_0334:
 	{
 		// }
 		return;
@@ -9764,6 +9944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_greenBeansFunction_m7335D8FAE126A05
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral49A1868C6DE0D41C987CC8949247FA1914C59FB3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -9782,14 +9963,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_greenBeansFunction_m7335D8FAE126A05
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(1250.0f)))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
 		float L_5 = __this->___greenBeansOwned_29;
 		if ((((float)L_5) == ((float)(1.0f))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
@@ -9799,85 +9980,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_greenBeansFunction_m7335D8FAE126A05
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
 		String_t* L_6 = __this->___ballMaterial_32;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_6, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_7;
+		L_7 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_7);
 		// greenBeansOwned = 1f;
 		__this->___greenBeansOwned_29 = (1.0f);
 		// PlayerPrefs.SetFloat("greenBeansOwned", greenBeansOwned);
-		float L_7 = __this->___greenBeansOwned_29;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72, L_7, NULL);
+		float L_8 = __this->___greenBeansOwned_29;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72, L_8, NULL);
 		// coinBonus.coins -= 1250f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = __this->___coinBonus_23;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = L_8;
-		float L_10 = L_9->___coins_5;
-		L_9->___coins_5 = ((float)il2cpp_codegen_subtract(L_10, (1250.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_23;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_10 = L_9;
+		float L_11 = L_10->___coins_5;
+		L_10->___coins_5 = ((float)il2cpp_codegen_subtract(L_11, (1250.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_11 = __this->___coinBonus_23;
-		float L_12 = L_11->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_12, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_12 = __this->___coinBonus_23;
+		float L_13 = L_12->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_13, NULL);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_14, L_15);
 		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_17), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_16, L_17);
 		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_19), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_18, L_19);
 		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
-		memset((&L_20), 0, sizeof(L_20));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_20), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_19, L_20);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_21), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_20, L_21);
 		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_21, L_22);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_23), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_22, L_23);
 		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
-		memset((&L_24), 0, sizeof(L_24));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_24), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_23, L_24);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_25), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_24, L_25);
 		// greenBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_27), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_26, L_27);
 		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_28), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_29), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_28, L_29);
 		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
-		memset((&L_30), 0, sizeof(L_30));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_30), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_31), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_30, L_31);
 		return;
 	}
 
-IL_01c4:
+IL_01d9:
 	{
 		// else if (PlayerPrefs.GetFloat("greenBeansOwned") == 1f)
-		float L_31;
-		L_31 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72, NULL);
-		if ((!(((float)L_31) == ((float)(1.0f)))))
+		float L_32;
+		L_32 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral7D54C9FCD0490E4EC253E300E66A682172FFCD72, NULL);
+		if ((!(((float)L_32) == ((float)(1.0f)))))
 		{
-			goto IL_030a;
+			goto IL_0334;
 		}
 	}
 	{
@@ -9885,65 +10071,70 @@ IL_01c4:
 		__this->___ballMaterial_32 = _stringLiteral49A1868C6DE0D41C987CC8949247FA1914C59FB3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteral49A1868C6DE0D41C987CC8949247FA1914C59FB3);
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_32 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_32, NULL);
+		String_t* L_33 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_33, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_34;
+		L_34 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_34);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
-		memset((&L_34), 0, sizeof(L_34));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_34), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_33, L_34);
-		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___pintoBeansText_5;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___refriedBeansText_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		memset((&L_36), 0, sizeof(L_36));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_35, L_36);
-		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___limaBeansText_6;
+		// pintoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___pintoBeansText_5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
 		memset((&L_38), 0, sizeof(L_38));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_37, L_38);
-		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___kidneyBeansText_7;
+		// limaBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___limaBeansText_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
 		memset((&L_40), 0, sizeof(L_40));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_39, L_40);
-		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___blackBeansText_8;
+		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___kidneyBeansText_7;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
 		memset((&L_42), 0, sizeof(L_42));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_41, L_42);
-		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___lentilsText_9;
+		// blackBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___blackBeansText_8;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
 		memset((&L_44), 0, sizeof(L_44));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_43, L_44);
-		// greenBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___greenBeansText_10;
+		// lentilsText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___lentilsText_9;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		memset((&L_46), 0, sizeof(L_46));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_45, L_46);
-		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___garbanzoBeansText_11;
+		// greenBeansText.color = new Color(0f, 1f, 0f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___greenBeansText_10;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
 		memset((&L_48), 0, sizeof(L_48));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_47, L_48);
-		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___jellyBeansText_12;
+		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___garbanzoBeansText_11;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
 		memset((&L_50), 0, sizeof(L_50));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_49, L_50);
+		// jellyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_52;
+		memset((&L_52), 0, sizeof(L_52));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_52), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_51, L_52);
 	}
 
-IL_030a:
+IL_0334:
 	{
 		// }
 		return;
@@ -9958,6 +10149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_garbanzoBeansFunction_m96DEDF7E312C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3504063107EBD5CBDFED18D8E2111DF755B2CEB2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -9976,14 +10168,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_garbanzoBeansFunction_m96DEDF7E312C
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(2000.0f)))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
 		float L_5 = __this->___garbanzoBeansOwned_30;
 		if ((((float)L_5) == ((float)(1.0f))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
@@ -9993,85 +10185,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_garbanzoBeansFunction_m96DEDF7E312C
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
 		String_t* L_6 = __this->___ballMaterial_32;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_6, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_7;
+		L_7 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_7);
 		// garbanzoBeansOwned = 1f;
 		__this->___garbanzoBeansOwned_30 = (1.0f);
 		// PlayerPrefs.SetFloat("garbanzoBeansOwned", garbanzoBeansOwned);
-		float L_7 = __this->___garbanzoBeansOwned_30;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1, L_7, NULL);
+		float L_8 = __this->___garbanzoBeansOwned_30;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1, L_8, NULL);
 		// coinBonus.coins -= 2000f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = __this->___coinBonus_23;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = L_8;
-		float L_10 = L_9->___coins_5;
-		L_9->___coins_5 = ((float)il2cpp_codegen_subtract(L_10, (2000.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_23;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_10 = L_9;
+		float L_11 = L_10->___coins_5;
+		L_10->___coins_5 = ((float)il2cpp_codegen_subtract(L_11, (2000.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_11 = __this->___coinBonus_23;
-		float L_12 = L_11->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_12, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_12 = __this->___coinBonus_23;
+		float L_13 = L_12->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_13, NULL);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_14, L_15);
 		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_17), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_16, L_17);
 		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_19), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_18, L_19);
 		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
-		memset((&L_20), 0, sizeof(L_20));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_20), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_19, L_20);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_21), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_20, L_21);
 		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_21, L_22);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_23), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_22, L_23);
 		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
-		memset((&L_24), 0, sizeof(L_24));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_24), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_23, L_24);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_25), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_24, L_25);
 		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_27), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_26, L_27);
 		// garbanzoBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_28), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_29), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_28, L_29);
 		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
-		memset((&L_30), 0, sizeof(L_30));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_30), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_31), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_30, L_31);
 		return;
 	}
 
-IL_01c4:
+IL_01d9:
 	{
 		// else if (PlayerPrefs.GetFloat("garbanzoBeansOwned") == 1f)
-		float L_31;
-		L_31 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1, NULL);
-		if ((!(((float)L_31) == ((float)(1.0f)))))
+		float L_32;
+		L_32 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteral843C483D1719294C3ABB02682C644E8057F7E0D1, NULL);
+		if ((!(((float)L_32) == ((float)(1.0f)))))
 		{
-			goto IL_030a;
+			goto IL_0334;
 		}
 	}
 	{
@@ -10079,65 +10276,70 @@ IL_01c4:
 		__this->___ballMaterial_32 = _stringLiteral3504063107EBD5CBDFED18D8E2111DF755B2CEB2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteral3504063107EBD5CBDFED18D8E2111DF755B2CEB2);
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_32 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_32, NULL);
+		String_t* L_33 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_33, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_34;
+		L_34 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_34);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
-		memset((&L_34), 0, sizeof(L_34));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_34), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_33, L_34);
-		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___pintoBeansText_5;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___refriedBeansText_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		memset((&L_36), 0, sizeof(L_36));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_35, L_36);
-		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___limaBeansText_6;
+		// pintoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___pintoBeansText_5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
 		memset((&L_38), 0, sizeof(L_38));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_37, L_38);
-		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___kidneyBeansText_7;
+		// limaBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___limaBeansText_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
 		memset((&L_40), 0, sizeof(L_40));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_39, L_40);
-		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___blackBeansText_8;
+		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___kidneyBeansText_7;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
 		memset((&L_42), 0, sizeof(L_42));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_41, L_42);
-		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___lentilsText_9;
+		// blackBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___blackBeansText_8;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
 		memset((&L_44), 0, sizeof(L_44));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_43, L_44);
-		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___greenBeansText_10;
+		// lentilsText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___lentilsText_9;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		memset((&L_46), 0, sizeof(L_46));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_45, L_46);
-		// garbanzoBeansText.color = new Color(0f, 1f, 0f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___garbanzoBeansText_11;
+		// greenBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___greenBeansText_10;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
 		memset((&L_48), 0, sizeof(L_48));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_47, L_48);
-		// jellyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___jellyBeansText_12;
+		// garbanzoBeansText.color = new Color(0f, 1f, 0f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___garbanzoBeansText_11;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
 		memset((&L_50), 0, sizeof(L_50));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_49, L_50);
+		// jellyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_52;
+		memset((&L_52), 0, sizeof(L_52));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_52), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_51, L_52);
 	}
 
-IL_030a:
+IL_0334:
 	{
 		// }
 		return;
@@ -10151,6 +10353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_jellyBeansFunction_m39E574E7A20620D
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB70A892E5561A50586A05818E10E17D3611314D);
 		s_Il2CppMethodInitialized = true;
@@ -10170,14 +10373,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_jellyBeansFunction_m39E574E7A20620D
 		float L_4 = L_3->___coins_5;
 		if ((!(((float)L_4) >= ((float)(5000.0f)))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
 		float L_5 = __this->___jellyBeansOwned_31;
 		if ((((float)L_5) == ((float)(1.0f))))
 		{
-			goto IL_01c4;
+			goto IL_01d9;
 		}
 	}
 	{
@@ -10187,85 +10390,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shop_jellyBeansFunction_m39E574E7A20620D
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
 		String_t* L_6 = __this->___ballMaterial_32;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_6, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_7;
+		L_7 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_7);
 		// jellyBeansOwned = 1f;
 		__this->___jellyBeansOwned_31 = (1.0f);
 		// PlayerPrefs.SetFloat("jellyBeansOwned", jellyBeansOwned);
-		float L_7 = __this->___jellyBeansOwned_31;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40, L_7, NULL);
+		float L_8 = __this->___jellyBeansOwned_31;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40, L_8, NULL);
 		// coinBonus.coins -= 5000f;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_8 = __this->___coinBonus_23;
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = L_8;
-		float L_10 = L_9->___coins_5;
-		L_9->___coins_5 = ((float)il2cpp_codegen_subtract(L_10, (5000.0f)));
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_9 = __this->___coinBonus_23;
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_10 = L_9;
+		float L_11 = L_10->___coins_5;
+		L_10->___coins_5 = ((float)il2cpp_codegen_subtract(L_11, (5000.0f)));
 		// PlayerPrefs.SetFloat("coins", coinBonus.coins);
-		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_11 = __this->___coinBonus_23;
-		float L_12 = L_11->___coins_5;
-		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_12, NULL);
+		CoinBonus_t6BED49F9653A24C2F167BFDC039777557E18B045* L_12 = __this->___coinBonus_23;
+		float L_13 = L_12->___coins_5;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral16F64B48CE03AD2C8628DC640D3E60B17532257D, L_13, NULL);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
-		memset((&L_14), 0, sizeof(L_14));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_14), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_13, L_14);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___refriedBeansText_4;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_15), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_14, L_15);
 		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___pintoBeansText_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_16), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_15, L_16);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_16 = __this->___pintoBeansText_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_17), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_16, L_17);
 		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___limaBeansText_6;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_18), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_17, L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___limaBeansText_6;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_19), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_18, L_19);
 		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___kidneyBeansText_7;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20;
-		memset((&L_20), 0, sizeof(L_20));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_20), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_19, L_20);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___kidneyBeansText_7;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_21), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_20, L_21);
 		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->___blackBeansText_8;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_22), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_21, L_22);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = __this->___blackBeansText_8;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_23), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_22, L_23);
 		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___lentilsText_9;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
-		memset((&L_24), 0, sizeof(L_24));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_24), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_23, L_24);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = __this->___lentilsText_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_25), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_24, L_25);
 		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___greenBeansText_10;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___greenBeansText_10;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_27), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_26, L_27);
 		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___garbanzoBeansText_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_28), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___garbanzoBeansText_11;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_29), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_28, L_29);
 		// jellyBeansText.color = new Color(1f, .1f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = __this->___jellyBeansText_12;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
-		memset((&L_30), 0, sizeof(L_30));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_30), (1.0f), (0.100000001f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_31), (1.0f), (0.100000001f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_30, L_31);
 		return;
 	}
 
-IL_01c4:
+IL_01d9:
 	{
 		// else if (PlayerPrefs.GetFloat("jellyBeansOwned") == 1f)
-		float L_31;
-		L_31 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40, NULL);
-		if ((!(((float)L_31) == ((float)(1.0f)))))
+		float L_32;
+		L_32 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(_stringLiteralBC6B10AB0938012EF926D09FE65959697E5E4B40, NULL);
+		if ((!(((float)L_32) == ((float)(1.0f)))))
 		{
-			goto IL_030a;
+			goto IL_0334;
 		}
 	}
 	{
@@ -10273,65 +10481,70 @@ IL_01c4:
 		__this->___ballMaterial_32 = _stringLiteralFB70A892E5561A50586A05818E10E17D3611314D;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)_stringLiteralFB70A892E5561A50586A05818E10E17D3611314D);
 		// PlayerPrefs.SetString("ballMaterial", ballMaterial);
-		String_t* L_32 = __this->___ballMaterial_32;
-		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_32, NULL);
+		String_t* L_33 = __this->___ballMaterial_32;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, L_33, NULL);
+		// ballMaterial = PlayerPrefs.GetString("ballMaterial", "refriedBeansMaterial");
+		String_t* L_34;
+		L_34 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral00BFE37815216BB0C78C7A88A13A48379A0401B3, _stringLiteral4A3796C32B9C223FE430633D8DA2EBD678158236, NULL);
+		__this->___ballMaterial_32 = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ballMaterial_32), (void*)L_34);
 		// refriedBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___refriedBeansText_4;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
-		memset((&L_34), 0, sizeof(L_34));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_34), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_33, L_34);
-		// pintoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___pintoBeansText_5;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___refriedBeansText_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_36;
 		memset((&L_36), 0, sizeof(L_36));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_36), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_35, L_36);
-		// limaBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___limaBeansText_6;
+		// pintoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___pintoBeansText_5;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38;
 		memset((&L_38), 0, sizeof(L_38));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_38), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_37, L_38);
-		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___kidneyBeansText_7;
+		// limaBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = __this->___limaBeansText_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
 		memset((&L_40), 0, sizeof(L_40));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_40), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_39, L_40);
-		// blackBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___blackBeansText_8;
+		// kidneyBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_41 = __this->___kidneyBeansText_7;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
 		memset((&L_42), 0, sizeof(L_42));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_42), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_41, L_42);
-		// lentilsText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___lentilsText_9;
+		// blackBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = __this->___blackBeansText_8;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_44;
 		memset((&L_44), 0, sizeof(L_44));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_44), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_43, L_44);
-		// greenBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___greenBeansText_10;
+		// lentilsText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_45 = __this->___lentilsText_9;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_46;
 		memset((&L_46), 0, sizeof(L_46));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_46), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_45, L_46);
-		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___garbanzoBeansText_11;
+		// greenBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___greenBeansText_10;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48;
 		memset((&L_48), 0, sizeof(L_48));
 		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_48), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_47, L_48);
-		// jellyBeansText.color = new Color(1f, .1f, .5f);
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___jellyBeansText_12;
+		// garbanzoBeansText.color = new Color(.5f, .5f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = __this->___garbanzoBeansText_11;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_50;
 		memset((&L_50), 0, sizeof(L_50));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (1.0f), (0.100000001f), (0.5f), /*hidden argument*/NULL);
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_50), (0.5f), (0.5f), (0.5f), /*hidden argument*/NULL);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_49, L_50);
+		// jellyBeansText.color = new Color(1f, .1f, .5f);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = __this->___jellyBeansText_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_52;
+		memset((&L_52), 0, sizeof(L_52));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_52), (1.0f), (0.100000001f), (0.5f), /*hidden argument*/NULL);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_51, L_52);
 	}
 
-IL_030a:
+IL_0334:
 	{
 		// }
 		return;
@@ -18601,193 +18814,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDisplayTextMeshFloatingText
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void TMPro.Examples.TextMeshSpawner::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshSpawner_Awake_m9A84A570D2582918A6B1287139527E9AB2CF088D (TextMeshSpawner_tB6905931E9BE4D7A2A2E37A51E221A7B462D75BB* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void TMPro.Examples.TextMeshSpawner::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshSpawner_Start_m3EE98071CA27A18904B859A0A6B215BDFEB50A66 (TextMeshSpawner_tB6905931E9BE4D7A2A2E37A51E221A7B462D75BB* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisTextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31_m3DBA7F56D8D880227B1D70FAA3DF6988A4EE69F1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisTextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_mD3BE0A75BBE971456A1D7C8C6F6688A094A81C9C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisTextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8_mFAD74D91BCACF9C3FAE6960EB58D5C346DDBD9C2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
-	{
-		// for (int i = 0; i < NumberOfNPC; i++)
-		V_0 = 0;
-		goto IL_0159;
-	}
-
-IL_0007:
-	{
-		// if (SpawnType == 0)
-		int32_t L_0 = __this->___SpawnType_4;
-		if (L_0)
-		{
-			goto IL_00a3;
-		}
-	}
-	{
-		// GameObject go = new GameObject(); //"NPC " + i);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
-		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_1, NULL);
-		V_1 = L_1;
-		// go.transform.position = new Vector3(Random.Range(-95f, 95f), 0.5f, Random.Range(-95f, 95f));
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_1;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
-		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
-		float L_4;
-		L_4 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-95.0f), (95.0f), NULL);
-		float L_5;
-		L_5 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-95.0f), (95.0f), NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
-		memset((&L_6), 0, sizeof(L_6));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), L_4, (0.5f), L_5, /*hidden argument*/NULL);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_3, L_6, NULL);
-		// TextMeshPro textMeshPro = go.AddComponent<TextMeshPro>();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_1;
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_8;
-		L_8 = GameObject_AddComponent_TisTextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_mD3BE0A75BBE971456A1D7C8C6F6688A094A81C9C(L_7, GameObject_AddComponent_TisTextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_mD3BE0A75BBE971456A1D7C8C6F6688A094A81C9C_RuntimeMethod_var);
-		// textMeshPro.fontSize = 96;
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_9 = L_8;
-		TMP_Text_set_fontSize_m1C3A3BA2BC88E5E1D89375FD35A0AA91E75D3AAD(L_9, (96.0f), NULL);
-		// textMeshPro.text = "!";
-		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_10 = L_9;
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_10, _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
-		// textMeshPro.color = new Color32(255, 255, 0, 255);
-		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_11;
-		memset((&L_11), 0, sizeof(L_11));
-		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_11), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)0, (uint8_t)((int32_t)255), /*hidden argument*/NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12;
-		L_12 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_11, NULL);
-		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_10, L_12);
-		// floatingText_Script = go.AddComponent<TextMeshProFloatingText>();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_1;
-		TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31* L_14;
-		L_14 = GameObject_AddComponent_TisTextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31_m3DBA7F56D8D880227B1D70FAA3DF6988A4EE69F1(L_13, GameObject_AddComponent_TisTextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31_m3DBA7F56D8D880227B1D70FAA3DF6988A4EE69F1_RuntimeMethod_var);
-		__this->___floatingText_Script_7 = L_14;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___floatingText_Script_7), (void*)L_14);
-		// floatingText_Script.SpawnType = 0;
-		TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31* L_15 = __this->___floatingText_Script_7;
-		L_15->___SpawnType_13 = 0;
-		goto IL_0155;
-	}
-
-IL_00a3:
-	{
-		// GameObject go = new GameObject(); //"NPC " + i);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
-		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_16, NULL);
-		V_2 = L_16;
-		// go.transform.position = new Vector3(Random.Range(-95f, 95f), 0.5f, Random.Range(-95f, 95f));
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_2;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
-		L_18 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_17, NULL);
-		float L_19;
-		L_19 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-95.0f), (95.0f), NULL);
-		float L_20;
-		L_20 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-95.0f), (95.0f), NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_21), L_19, (0.5f), L_20, /*hidden argument*/NULL);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_18, L_21, NULL);
-		// TextMesh textMesh = go.AddComponent<TextMesh>();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_2;
-		TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* L_23;
-		L_23 = GameObject_AddComponent_TisTextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8_mFAD74D91BCACF9C3FAE6960EB58D5C346DDBD9C2(L_22, GameObject_AddComponent_TisTextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8_mFAD74D91BCACF9C3FAE6960EB58D5C346DDBD9C2_RuntimeMethod_var);
-		// textMesh.GetComponent<Renderer>().sharedMaterial = TheFont.material;
-		TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* L_24 = L_23;
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_25;
-		L_25 = Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8(L_24, Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
-		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_26 = __this->___TheFont_6;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_27;
-		L_27 = Font_get_material_m61ABDEC14C6D659DDC5A4F080023699116C17364(L_26, NULL);
-		Renderer_set_sharedMaterial_m5E842F9A06CFB7B77656EB319881CB4B3E8E4288(L_25, L_27, NULL);
-		// textMesh.font = TheFont;
-		TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* L_28 = L_24;
-		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_29 = __this->___TheFont_6;
-		TextMesh_set_font_m7E407CAEDBB382B95B70069D8FAB8A9E74EAAA74(L_28, L_29, NULL);
-		// textMesh.anchor = TextAnchor.LowerCenter;
-		TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* L_30 = L_28;
-		TextMesh_set_anchor_m3FCB7C4B1FF66CE189B56076C0306AFE984FCD32(L_30, 7, NULL);
-		// textMesh.fontSize = 96;
-		TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* L_31 = L_30;
-		TextMesh_set_fontSize_mAB9F7FFC0E4DB759B786F6A9357B18C86015498B(L_31, ((int32_t)96), NULL);
-		// textMesh.color = new Color32(255, 255, 0, 255);
-		TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* L_32 = L_31;
-		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_33;
-		memset((&L_33), 0, sizeof(L_33));
-		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_33), (uint8_t)((int32_t)255), (uint8_t)((int32_t)255), (uint8_t)0, (uint8_t)((int32_t)255), /*hidden argument*/NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
-		L_34 = Color32_op_Implicit_m47CBB138122B400E0B1F4BFD7C30A6C2C00FCA3E_inline(L_33, NULL);
-		TextMesh_set_color_mF08F30C3CD797C16289225B567724B9F07DC641E(L_32, L_34, NULL);
-		// textMesh.text = "!";
-		TextMesh_set_text_mDF79D39638ED82797D0B0B3BB9E6B10712F8EA9E(L_32, _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46, NULL);
-		// floatingText_Script = go.AddComponent<TextMeshProFloatingText>();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = V_2;
-		TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31* L_36;
-		L_36 = GameObject_AddComponent_TisTextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31_m3DBA7F56D8D880227B1D70FAA3DF6988A4EE69F1(L_35, GameObject_AddComponent_TisTextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31_m3DBA7F56D8D880227B1D70FAA3DF6988A4EE69F1_RuntimeMethod_var);
-		__this->___floatingText_Script_7 = L_36;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___floatingText_Script_7), (void*)L_36);
-		// floatingText_Script.SpawnType = 1;
-		TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31* L_37 = __this->___floatingText_Script_7;
-		L_37->___SpawnType_13 = 1;
-	}
-
-IL_0155:
-	{
-		// for (int i = 0; i < NumberOfNPC; i++)
-		int32_t L_38 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add(L_38, 1));
-	}
-
-IL_0159:
-	{
-		// for (int i = 0; i < NumberOfNPC; i++)
-		int32_t L_39 = V_0;
-		int32_t L_40 = __this->___NumberOfNPC_5;
-		if ((((int32_t)L_39) < ((int32_t)L_40)))
-		{
-			goto IL_0007;
-		}
-	}
-	{
-		// }
-		return;
-	}
-}
-// System.Void TMPro.Examples.TextMeshSpawner::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshSpawner__ctor_m8409A62C31C4A6B6CEC2F48F1DC9777460C28233 (TextMeshSpawner_tB6905931E9BE4D7A2A2E37A51E221A7B462D75BB* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int NumberOfNPC = 12;
-		__this->___NumberOfNPC_5 = ((int32_t)12);
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
 	}
 }
 #ifdef __clang__

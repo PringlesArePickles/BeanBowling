@@ -15,6 +15,7 @@
 		<type fullname="LoadScenes">
 			<method name="LoadHomeScene"/>
 			<method name="LoadHomeScene"/>
+			<method name="LoadHomeScene"/>
 			<method name="LoadPlayScene"/>
 			<method name="LoadPlayScene"/>
 			<method name="LoadShopScene"/>
